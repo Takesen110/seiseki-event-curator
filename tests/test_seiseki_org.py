@@ -3,7 +3,7 @@
 """scrapers/seiseki_org.py の統合テスト（新パッケージ構造）"""
 import sys
 from pathlib import Path
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from scrapers.seiseki_org import (
     parse_event_list_page, parse_event_detail, parse_dates_from_title,

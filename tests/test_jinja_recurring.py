@@ -4,7 +4,7 @@
 import sys
 from datetime import date
 from pathlib import Path
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from scrapers.jinja_recurring import (
     nth_weekday_of_month, sunday_before, expand_rule,

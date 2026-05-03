@@ -3,7 +3,7 @@
 """scrapers/square_sc.py のテスト"""
 import sys
 from pathlib import Path
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from scrapers.square_sc import (
     parse_top_page, parse_event_detail, _extract_event_period,

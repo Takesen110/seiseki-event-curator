@@ -3,7 +3,7 @@
 """scrapers/tamapon.py のテスト"""
 import sys
 from pathlib import Path
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from scrapers.tamapon import (
     parse_archive_page, parse_event_detail, _infer_tags,

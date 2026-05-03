@@ -3,7 +3,7 @@
 """scrapers/seiseki_s.py のテスト"""
 import sys
 from pathlib import Path
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from scrapers.seiseki_s import (
     parse_event_list_page, parse_event_detail, _infer_tags,
