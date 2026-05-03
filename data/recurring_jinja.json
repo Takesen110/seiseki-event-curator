@@ -1,0 +1,165 @@
+{
+  "_README": [
+    "聖蹟桜ヶ丘エリアの神社の年中行事を、再帰ルールで定義する。",
+    "Pythonスクリプト (scrapers/jinja_recurring.py) が",
+    "毎日「次の発生日」「過去の最近の発生日」を自動計算して events.json に投入する。",
+    "",
+    "ルール種別:",
+    "  - nth_weekday    : 毎月N回目の曜日（例: 9月第2日曜）",
+    "  - day_of_year    : 固定日（例: 1/1〜1/3）",
+    "  - sunday_before  : 指定日の直前の日曜（例: 節分2/3 直前の日曜）",
+    "",
+    "重要：神社の祭事は毎年の天候・社務都合で日程が前後する場合があります。",
+    "スクレイパーは『推定日付』として展開し、UIには注意書きを表示します。",
+    "実際の日程は各神社の公式サイト・告知をご確認ください。"
+  ],
+  "events": [
+    {
+      "id": "ono-reitaisai",
+      "title": "武蔵國一之宮 小野神社 例大祭",
+      "url": "https://onojinja.or.jp/",
+      "venue": "武蔵國一之宮 小野神社（多摩市一ノ宮1-18-8）",
+      "organizer": "武蔵國一之宮 小野神社",
+      "tags": ["まちなか"],
+      "body": "武蔵国の開拓の祖神を祀る一之宮の例大祭。神輿渡御、お囃子、屋台などで賑わう聖蹟桜ヶ丘エリアの代表的な秋祭り。前日の土曜日が宵宮、翌日曜が本祭・神幸祭。",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 9,
+        "weekday": "sunday",
+        "nth": 2,
+        "duration_days": 2,
+        "start_offset_days": -1
+      },
+      "note": "例年9月第2日曜（前日土曜が宵宮）に斎行されますが、年により変動します。最新情報は公式サイトでご確認ください。"
+    },
+    {
+      "id": "ono-spring",
+      "title": "武蔵國一之宮 小野神社 春の祭礼末社祭",
+      "url": "https://onojinja.or.jp/",
+      "venue": "武蔵國一之宮 小野神社（多摩市一ノ宮1-18-8）",
+      "organizer": "武蔵國一之宮 小野神社",
+      "tags": ["まちなか"],
+      "body": "境内末社の祭礼。",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 4,
+        "weekday": "sunday",
+        "nth": 1
+      },
+      "note": "例年4月第1日曜に斎行されます。日程は変動する場合があるため、最新情報は公式サイトでご確認ください。"
+    },
+    {
+      "id": "ono-hatsumode",
+      "title": "武蔵國一之宮 小野神社 初詣",
+      "url": "https://onojinja.or.jp/",
+      "venue": "武蔵國一之宮 小野神社（多摩市一ノ宮1-18-8）",
+      "organizer": "武蔵國一之宮 小野神社",
+      "tags": ["まちなか"],
+      "body": "新年を迎える初詣。御朱印・御守授与あり。",
+      "rule": {
+        "type": "day_of_year",
+        "month": 1,
+        "day": 1,
+        "duration_days": 3
+      },
+      "note": "1月1日〜3日が中心ですが、参拝・授与所の時間は変動します。最新情報は公式サイトでご確認ください。"
+    },
+    {
+      "id": "kumano-reitaisai",
+      "title": "関戸 熊野神社 例大祭",
+      "url": "https://shamu-sho.wixsite.com/sekido-kumanojinja",
+      "venue": "関戸 熊野神社（多摩市関戸5-35-5）",
+      "organizer": "関戸 熊野神社",
+      "tags": ["まちなか"],
+      "body": "関戸の氏神様、都内で唯一桃の神様（意冨加牟都美命）をお祀りする神社の例大祭。前日の土曜が宵宮、翌日曜が本祭・神幸祭。",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 9,
+        "weekday": "sunday",
+        "nth": 2,
+        "duration_days": 2,
+        "start_offset_days": -1
+      },
+      "note": "例年9月第2日曜（前日土曜が宵宮）に斎行されますが、年により変動します。最新情報は公式サイトInstagramでご確認ください。"
+    },
+    {
+      "id": "kumano-setsubun",
+      "title": "関戸 熊野神社 節分祭追儺式・厄除大祭",
+      "url": "https://shamu-sho.wixsite.com/sekido-kumanojinja",
+      "venue": "関戸 熊野神社（多摩市関戸5-35-5）",
+      "organizer": "関戸 熊野神社",
+      "tags": ["まちなか"],
+      "body": "節分の追儺式と厄除大祭。境内社の稲荷社初午祭も同日斎行。",
+      "rule": {
+        "type": "sunday_before",
+        "month": 2,
+        "day": 3
+      },
+      "note": "例年節分（2/3）直前の日曜日に斎行されますが、年により日程が変動します。最新情報は公式サイトでご確認ください。"
+    },
+    {
+      "id": "kumano-hatsumode",
+      "title": "関戸 熊野神社 初詣",
+      "url": "https://shamu-sho.wixsite.com/sekido-kumanojinja",
+      "venue": "関戸 熊野神社（多摩市関戸5-35-5）",
+      "organizer": "関戸 熊野神社",
+      "tags": ["まちなか"],
+      "body": "新年を迎える初詣。",
+      "rule": {
+        "type": "day_of_year",
+        "month": 1,
+        "day": 1,
+        "duration_days": 3
+      },
+      "note": "1月1日〜3日が中心です。神職常駐ではないため、御朱印等は事前にご確認ください。"
+    },
+    {
+      "id": "konpira-reitaisai",
+      "title": "金比羅宮（桜ケ丘） 例大祭",
+      "url": "https://shamu-sho.wixsite.com/sekido-kumanojinja/sakuragaoka-konpira",
+      "venue": "金比羅宮（多摩市桜ケ丘1-54-4 天守台・城山）",
+      "organizer": "関戸 熊野神社（所管社）",
+      "tags": ["まちなか"],
+      "body": "桜ケ丘の城山の上に鎮座する金毘羅大権現の例大祭。江戸期には江戸名所図会にも描かれた景勝地。",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 9,
+        "weekday": "sunday",
+        "nth": 2
+      },
+      "note": "例年9月第2日曜に斎行されますが、年により変動します。最新情報は関戸熊野神社サイトでご確認ください。"
+    },
+    {
+      "id": "kuzuryu-reitaisai",
+      "title": "九頭龍神社（関戸） 例大祭",
+      "url": "https://shamu-sho.wixsite.com/sekido-kumanojinja/sekido-kuzuryujinja",
+      "venue": "九頭龍神社（多摩市関戸4-19-2）",
+      "organizer": "関戸 熊野神社（所管社）",
+      "tags": ["まちなか"],
+      "body": "多摩川の水神として崇敬される神社の例大祭。中世の大洪水の折に九つの頭を持つ龍が流れ着いたという伝承。",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 9,
+        "weekday": "sunday",
+        "nth": 2
+      },
+      "note": "例年9月第2日曜に斎行されますが、年により変動します。最新情報は関戸熊野神社サイトでご確認ください。"
+    },
+    {
+      "id": "hakusan-reitaisai",
+      "title": "連光寺 白山神社 例大祭（八坂神社祭礼同日）",
+      "url": "https://shamu-sho.wixsite.com/renkoji-hakusanjinja",
+      "venue": "連光寺 白山神社（多摩市連光寺6-6-11）",
+      "organizer": "連光寺 白山神社",
+      "tags": ["まちなか"],
+      "body": "境内の御神木むくの木は多摩市天然記念物。所管社の八坂神社（連光寺/天王森公園）の祭礼も同日に斎行。",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 9,
+        "weekday": "saturday",
+        "nth": 2
+      },
+      "note": "例年9月第2土曜に斎行されますが、年により残暑等の都合で日程が前後します（直近では令和7年は9/27に変更）。最新情報は公式サイトでご確認ください。"
+    }
+  ]
+}

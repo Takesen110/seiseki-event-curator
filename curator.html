@@ -1,0 +1,1059 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>seiseki curator — 聖蹟桜ヶ丘イベントSNSキュレーション</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500;700&family=Noto+Sans+JP:wght@400;500;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #f4efe6; --paper-2: #ebe4d4;
+    --ink: #1d1a17; --ink-soft: #4a443c; --ink-mute: #8a8378;
+    --line: #d6cdb8; --line-soft: #e3dcc8;
+    --tama: #6b8a9e; --sakura: #c97676; --kusa: #75825a;
+    --accent: #b95630; --hl: #f0d97a;
+    --serif: 'Noto Serif JP', 'Hiragino Mincho ProN', serif;
+    --sans:  'Noto Sans JP', 'Hiragino Sans', sans-serif;
+    --mono:  'DM Mono', 'Courier New', monospace;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--paper); color: var(--ink);
+    font-family: var(--sans); font-size: 14px; line-height: 1.7;
+    background-image:
+      radial-gradient(circle at 30% 20%, rgba(186,142,69,.04) 0, transparent 40%),
+      radial-gradient(circle at 80% 80%, rgba(107,138,158,.04) 0, transparent 50%);
+    min-height: 100vh;
+  }
+  a { color: var(--accent); text-decoration: none; border-bottom: 1px dotted var(--accent); }
+  a:hover { background: rgba(185,86,48,.08); }
+
+  .masthead {
+    border-bottom: 1px solid var(--ink); padding: 28px 36px 22px;
+    display: flex; align-items: baseline; gap: 24px; flex-wrap: wrap;
+    background: var(--paper); position: sticky; top: 0; z-index: 50; backdrop-filter: blur(6px);
+  }
+  .masthead h1 { font-family: var(--serif); font-weight: 500; font-size: 28px; margin: 0; letter-spacing: 0.02em; }
+  .masthead .lede { font-family: var(--serif); color: var(--ink-soft); font-size: 13px; font-style: italic; }
+  .masthead .stats { margin-left: auto; font-family: var(--mono); font-size: 11px; color: var(--ink-mute); text-align: right; line-height: 1.5; }
+  .masthead .stats b { color: var(--ink); font-weight: 500; }
+
+  .controls {
+    display: flex; flex-wrap: wrap; gap: 20px; padding: 18px 36px;
+    border-bottom: 1px solid var(--line); background: var(--paper-2); align-items: flex-end;
+  }
+  .controls .group { display: flex; flex-direction: column; gap: 4px; }
+  .controls label { font-family: var(--mono); font-size: 10px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink-mute); }
+  .controls select, .controls input[type="text"] {
+    background: var(--paper); border: 1px solid var(--line); color: var(--ink);
+    padding: 6px 10px; font-family: var(--sans); font-size: 13px; border-radius: 0; min-width: 140px;
+  }
+  .controls input[type="text"] { min-width: 180px; }
+  .controls select:focus, .controls input:focus { outline: none; border-color: var(--ink); background: #fff; }
+  .controls .checkbox { display: flex; align-items: center; gap: 6px; font-size: 12px; cursor: pointer; color: var(--ink-soft); }
+  .clear-btn {
+    background: transparent; border: 1px solid var(--ink-mute); color: var(--ink-mute);
+    padding: 4px 10px; cursor: pointer; font-family: var(--mono); font-size: 11px; text-transform: uppercase;
+  }
+  .clear-btn:hover { color: var(--ink); border-color: var(--ink); }
+
+  .empty {
+    margin: 80px auto; max-width: 560px; padding: 60px 40px;
+    border: 2px dashed var(--ink-mute); text-align: center;
+    background: rgba(255,255,255,0.4); transition: all .2s;
+  }
+  .empty.dragover { background: rgba(185,86,48,0.08); border-color: var(--accent); border-style: solid; }
+  .empty h2 { font-family: var(--serif); font-weight: 500; margin: 0 0 8px; }
+  .empty p { color: var(--ink-soft); margin: 0 0 16px; }
+  .empty input[type="file"] { display: none; }
+  .empty .pick-btn {
+    background: var(--ink); color: var(--paper); padding: 10px 20px; cursor: pointer;
+    font-family: var(--mono); font-size: 12px; letter-spacing: 0.05em; text-transform: uppercase; display: inline-block;
+  }
+  .empty .pick-btn:hover { background: var(--accent); }
+  .empty .hint { margin-top: 16px; font-size: 11px; color: var(--ink-mute); font-family: var(--mono); }
+
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 24px; padding: 28px 36px 80px; }
+  .card {
+    background: #fff; border: 1px solid var(--line);
+    display: flex; flex-direction: column; transition: transform .15s, box-shadow .15s; position: relative;
+  }
+  .card:hover { box-shadow: 0 6px 18px rgba(29,26,23,.08); transform: translateY(-2px); }
+  .card.adopted { border-color: var(--accent); box-shadow: 0 0 0 2px rgba(185,86,48,.18); }
+  .card.rejected { opacity: 0.45; filter: grayscale(0.7); }
+  .card.hold { border-color: var(--tama); box-shadow: 0 0 0 1px rgba(107,138,158,.3); }
+  .card-img {
+    width: 100%; aspect-ratio: 4 / 3; background: var(--paper-2);
+    object-fit: cover; display: block; border-bottom: 1px solid var(--line-soft);
+  }
+  .card-img.placeholder {
+    display: flex; align-items: center; justify-content: center;
+    color: var(--ink-mute); font-family: var(--mono); font-size: 11px;
+  }
+  .card-status-badge {
+    position: absolute; top: 10px; left: 10px;
+    background: var(--ink); color: var(--paper);
+    font-family: var(--mono); font-size: 10px; padding: 3px 8px; letter-spacing: 0.05em;
+  }
+  .card-status-badge.upcoming { background: var(--accent); }
+  .card-status-badge.ongoing { background: var(--kusa); }
+  .card-status-badge.ended { background: var(--ink-mute); }
+
+  .card-body { padding: 16px 18px; display: flex; flex-direction: column; gap: 10px; flex: 1; }
+  .card-date { font-family: var(--mono); font-size: 11px; color: var(--accent); letter-spacing: 0.04em; }
+  .card-title { font-family: var(--serif); font-size: 16px; line-height: 1.45; margin: 0; font-weight: 500; }
+  .card-meta { font-size: 12px; color: var(--ink-soft); line-height: 1.6; }
+  .card-meta b { color: var(--ink); font-weight: 500; }
+  .card-badges { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 4px; }
+  .badge { font-family: var(--mono); font-size: 10px; padding: 2px 8px; letter-spacing: 0.04em; border: 1px solid currentColor; }
+  .badge.cat-kawamachi { color: var(--tama); }
+  .badge.cat-machinaka { color: var(--kusa); }
+  .badge.cat-sc { color: var(--sakura); }
+  .badge.cat-other { color: var(--ink-mute); }
+  .badge.genre { color: var(--ink-soft); border-color: var(--line); }
+
+  .card-actions { display: flex; border-top: 1px solid var(--line-soft); margin-top: auto; }
+  .card-actions button {
+    flex: 1; background: transparent; border: none; border-right: 1px solid var(--line-soft);
+    padding: 12px 6px; font-family: var(--mono); font-size: 11px;
+    letter-spacing: 0.05em; text-transform: uppercase; color: var(--ink-soft); cursor: pointer; transition: all 0.15s;
+  }
+  .card-actions button:last-child { border-right: none; }
+  .card-actions button:hover { background: var(--paper-2); color: var(--ink); }
+  .card-actions button.active.adopt { background: var(--accent); color: white; }
+  .card-actions button.active.hold { background: var(--tama); color: white; }
+  .card-actions button.active.reject { background: var(--ink-mute); color: white; }
+
+  .drawer-toggle {
+    position: fixed; bottom: 24px; right: 24px;
+    background: var(--ink); color: var(--paper); border: none;
+    padding: 14px 22px; font-family: var(--mono); font-size: 12px;
+    letter-spacing: 0.06em; text-transform: uppercase; cursor: pointer;
+    box-shadow: 0 8px 24px rgba(29,26,23,.18); z-index: 60;
+  }
+  .drawer-toggle:hover { background: var(--accent); }
+  .drawer-toggle .count { background: var(--accent); color: white; padding: 2px 8px; margin-left: 8px; font-size: 11px; }
+
+  .drawer {
+    position: fixed; top: 0; right: 0; width: min(720px, 100%); height: 100%;
+    background: var(--paper); border-left: 1px solid var(--ink);
+    box-shadow: -8px 0 24px rgba(29,26,23,.12); z-index: 100;
+    transform: translateX(100%); transition: transform .3s;
+    display: flex; flex-direction: column;
+  }
+  .drawer.open { transform: translateX(0); }
+  .drawer-head {
+    padding: 18px 24px; border-bottom: 1px solid var(--line);
+    display: flex; justify-content: space-between; align-items: center;
+  }
+  .drawer-head h2 { font-family: var(--serif); font-weight: 500; margin: 0; font-size: 20px; }
+  .drawer-close {
+    background: transparent; border: 1px solid var(--ink-mute); color: var(--ink-mute);
+    width: 28px; height: 28px; cursor: pointer; font-size: 16px;
+  }
+  .drawer-close:hover { color: var(--ink); border-color: var(--ink); }
+  .drawer-body { flex: 1; overflow-y: auto; padding: 0; }
+
+  .drawer-event { border-bottom: 1px solid var(--line); padding: 18px 24px; }
+  .drawer-event h3 { font-family: var(--serif); font-weight: 500; font-size: 16px; margin: 0 0 10px; }
+  .drawer-event .meta { font-family: var(--mono); font-size: 11px; color: var(--ink-mute); margin-bottom: 12px; }
+
+  .style-tabs { display: flex; gap: 0; border-bottom: 1px solid var(--line); margin-bottom: 14px; }
+  .style-tabs button {
+    flex: 1; background: transparent; border: none; padding: 8px 4px;
+    font-family: var(--mono); font-size: 10px; letter-spacing: 0.06em; text-transform: uppercase;
+    color: var(--ink-mute); cursor: pointer; border-bottom: 2px solid transparent;
+  }
+  .style-tabs button.active { color: var(--ink); border-bottom-color: var(--accent); }
+
+  .platform-row { display: flex; gap: 8px; margin-bottom: 6px; }
+  .platform-row button {
+    background: transparent; border: 1px solid var(--line); padding: 4px 10px;
+    font-family: var(--mono); font-size: 10px; letter-spacing: 0.05em;
+    text-transform: uppercase; color: var(--ink-soft); cursor: pointer;
+  }
+  .platform-row button.active { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+
+  .compose-area textarea {
+    width: 100%; background: #fff; border: 1px solid var(--line); padding: 12px;
+    font-family: var(--sans); font-size: 13px; line-height: 1.7;
+    resize: vertical; min-height: 160px; color: var(--ink);
+  }
+  .compose-area textarea:focus { outline: none; border-color: var(--ink); }
+
+  .char-count { font-family: var(--mono); font-size: 10px; color: var(--ink-mute); margin-top: 4px; display: flex; justify-content: space-between; align-items: center; }
+  .char-count.over { color: var(--accent); font-weight: 500; }
+  .char-count .copy-btn {
+    background: var(--ink); color: var(--paper); border: none;
+    padding: 4px 10px; cursor: pointer;
+    font-family: var(--mono); font-size: 10px; text-transform: uppercase; letter-spacing: 0.04em;
+  }
+  .char-count .copy-btn:hover { background: var(--accent); }
+  .char-count .copy-btn.copied { background: var(--kusa); }
+
+  .aux-section {
+    margin-top: 14px; padding: 10px 12px;
+    background: rgba(255,255,255,.5); border-left: 3px solid var(--line);
+  }
+  .aux-section h4 {
+    font-family: var(--mono); font-size: 10px;
+    text-transform: uppercase; letter-spacing: 0.08em;
+    color: var(--ink-mute); margin: 0 0 8px; font-weight: 500;
+  }
+
+  .hashtag-chip {
+    display: inline-flex; align-items: center; gap: 4px;
+    background: var(--paper-2); border: 1px solid var(--line);
+    padding: 3px 8px; font-family: var(--mono); font-size: 11px;
+    color: var(--ink-soft); margin: 2px 4px 2px 0;
+    cursor: pointer; transition: all .1s;
+  }
+  .hashtag-chip:hover { background: var(--paper); color: var(--ink); }
+  .hashtag-chip.active { background: var(--accent); color: white; border-color: var(--accent); }
+  .hashtag-chip .x { color: var(--ink-mute); font-size: 9px; margin-left: 2px; }
+  .hashtag-chip.active .x { color: rgba(255,255,255,.7); }
+
+  .hashtag-input { width: 200px; border: 1px solid var(--line); padding: 4px 8px; font-family: var(--mono); font-size: 11px; background: #fff; margin-right: 4px; }
+  .hashtag-input:focus { outline: none; border-color: var(--ink); }
+
+  .shop-list { display: flex; flex-direction: column; gap: 4px; font-size: 12px; }
+  .shop-row { display: flex; align-items: center; gap: 8px; padding: 4px 6px; background: rgba(255,255,255,.6); }
+  .shop-name { flex: 1; font-family: var(--serif); }
+  .shop-row a {
+    font-family: var(--mono); font-size: 10px; text-transform: uppercase;
+    border-bottom: none; padding: 2px 6px; background: var(--paper-2); color: var(--ink-soft);
+  }
+  .shop-row a:hover { background: var(--ink); color: var(--paper); }
+
+  .image-link { margin-top: 8px; font-family: var(--mono); font-size: 10px; color: var(--ink-mute); }
+  .image-link b { color: var(--ink-soft); }
+
+  .drawer-empty { padding: 40px 24px; text-align: center; color: var(--ink-mute); font-family: var(--serif); font-style: italic; }
+  .grid-empty { grid-column: 1 / -1; text-align: center; padding: 80px 20px; color: var(--ink-mute); font-family: var(--serif); font-style: italic; }
+
+  ::-webkit-scrollbar { width: 10px; height: 10px; }
+  ::-webkit-scrollbar-track { background: var(--paper-2); }
+  ::-webkit-scrollbar-thumb { background: var(--ink-mute); }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <h1>seiseki curator</h1>
+  <span class="lede">— 聖蹟桜ヶ丘イベントSNSキュレーション</span>
+  <div class="stats" id="stats">
+    <div>data: <b>—</b></div>
+    <div>採用: <b id="adopt-count">0</b> · 後で: <b id="hold-count">0</b></div>
+  </div>
+</header>
+
+<section class="controls" id="controls" style="display:none">
+  <div class="group">
+    <label>場所カテゴリ</label>
+    <select id="filter-category">
+      <option value="">すべて</option>
+      <option value="せいせきカワマチ">せいせきカワマチ</option>
+      <option value="まちなか">まちなか</option>
+      <option value="ショッピングセンター">ショッピングセンター</option>
+      <option value="その他">その他</option>
+    </select>
+  </div>
+  <div class="group">
+    <label>ジャンル</label>
+    <select id="filter-genre"><option value="">すべて</option></select>
+  </div>
+  <div class="group">
+    <label>ソース</label>
+    <select id="filter-source"><option value="">すべて</option></select>
+  </div>
+  <div class="group">
+    <label>ステータス</label>
+    <select id="filter-status">
+      <option value="upcoming-or-ongoing">開催予定 + 開催中</option>
+      <option value="upcoming">開催予定のみ</option>
+      <option value="ongoing">開催中のみ</option>
+      <option value="ended">終了</option>
+      <option value="">すべて</option>
+    </select>
+  </div>
+  <div class="group">
+    <label>キーワード</label>
+    <input type="text" id="filter-keyword" placeholder="タイトル・本文・主催">
+  </div>
+  <div class="group">
+    <label>選別状態</label>
+    <select id="filter-decision">
+      <option value="">すべて</option>
+      <option value="undecided">未決</option>
+      <option value="adopt">採用</option>
+      <option value="hold">後で</option>
+      <option value="reject">不採用</option>
+    </select>
+  </div>
+  <label class="checkbox">
+    <input type="checkbox" id="filter-no-kc">キッチンカーカレンダーを除外
+  </label>
+  <button class="clear-btn" id="reset-filters">フィルタ解除</button>
+  <button class="clear-btn" id="reset-decisions">採用状態リセット</button>
+  <button class="clear-btn" id="load-other">別ファイル読込</button>
+</section>
+
+<main id="main">
+  <div class="empty" id="empty">
+    <h2>events.json を読み込む</h2>
+    <p>scraper が出力した <code>data/events.json</code> をここにドラッグ＆ドロップ、<br>または下のボタンから選択してください。</p>
+    <label class="pick-btn" for="file-input">ファイルを選択</label>
+    <input type="file" id="file-input" accept=".json,application/json">
+    <div class="hint">読み込み後、採用状態と編集内容は自動的にブラウザに保存されます。</div>
+  </div>
+  <div class="grid" id="grid" style="display:none"></div>
+</main>
+
+<button class="drawer-toggle" id="drawer-toggle" style="display:none">
+  投稿テキスト生成 <span class="count" id="adopt-count-2">0</span>
+</button>
+
+<aside class="drawer" id="drawer">
+  <div class="drawer-head">
+    <h2>採用イベントの投稿ドラフト</h2>
+    <button class="drawer-close" id="drawer-close">×</button>
+  </div>
+  <div class="drawer-body" id="drawer-body"></div>
+</aside>
+
+<script>
+const STATE = {
+  events: [],
+  decisions: {},
+  filters: { category:'', genre:'', source:'', status:'upcoming-or-ongoing', keyword:'', decision:'', excludeKitchenCar:false },
+  composeEdits: {},
+  uiState: {},
+  selectedHashtags: {},
+  customHashtags: {},
+};
+
+const STORAGE_KEYS = {
+  decisions:'seiseki_curator_decisions_v2',
+  composeEdits:'seiseki_curator_compose_v2',
+  uiState:'seiseki_curator_uistate_v2',
+  selectedHashtags:'seiseki_curator_selhash_v2',
+  customHashtags:'seiseki_curator_customhash_v2',
+};
+
+const PLATFORM_LIMITS = { x: 280, ig: 2200 };
+
+// 場所カテゴリごとのデフォルトハッシュタグ（武仙さん文体）
+const CATEGORY_HASHTAGS = {
+  'せいせきカワマチ': ['#せいせきカワマチ', '#聖蹟桜ヶ丘'],
+  'まちなか': ['#聖蹟桜ヶ丘'],
+  'ショッピングセンター': ['#せいせきSC', '#聖蹟桜ヶ丘'],
+  'その他': ['#聖蹟桜ヶ丘'],
+};
+
+// ボーナス候補（チップで提示、デフォルトはOFF）
+const BONUS_HASHTAGS = ['#かわまちづくり', '#多摩川', '#多摩市'];
+
+function saveAll() {
+  try {
+    localStorage.setItem(STORAGE_KEYS.decisions, JSON.stringify(STATE.decisions));
+    localStorage.setItem(STORAGE_KEYS.composeEdits, JSON.stringify(STATE.composeEdits));
+    localStorage.setItem(STORAGE_KEYS.uiState, JSON.stringify(STATE.uiState));
+    localStorage.setItem(STORAGE_KEYS.selectedHashtags, JSON.stringify(STATE.selectedHashtags));
+    localStorage.setItem(STORAGE_KEYS.customHashtags, JSON.stringify(STATE.customHashtags));
+  } catch (e) { console.warn('save failed', e); }
+}
+function loadAll() {
+  try {
+    const get = k => { const s = localStorage.getItem(k); return s ? JSON.parse(s) : null; };
+    STATE.decisions = get(STORAGE_KEYS.decisions) || {};
+    STATE.composeEdits = get(STORAGE_KEYS.composeEdits) || {};
+    STATE.uiState = get(STORAGE_KEYS.uiState) || {};
+    STATE.selectedHashtags = get(STORAGE_KEYS.selectedHashtags) || {};
+    STATE.customHashtags = get(STORAGE_KEYS.customHashtags) || {};
+  } catch (e) { console.warn('load failed', e); }
+}
+
+function loadEventsFromFile(file) {
+  const reader = new FileReader();
+  reader.onload = (e) => {
+    try {
+      const data = JSON.parse(e.target.result);
+      if (!Array.isArray(data)) throw new Error('JSON is not an array');
+      STATE.events = data;
+      onDataLoaded();
+    } catch (err) { alert('events.json の読み込みに失敗しました: ' + err.message); }
+  };
+  reader.readAsText(file);
+}
+
+function onDataLoaded() {
+  const genreSet = new Set();
+  STATE.events.forEach(e => (e.genres || []).forEach(g => genreSet.add(g)));
+  const genreSel = document.getElementById('filter-genre');
+  [...genreSel.querySelectorAll('option:not(:first-child)')].forEach(o => o.remove());
+  [...genreSet].sort().forEach(g => {
+    const opt = document.createElement('option');
+    opt.value = g; opt.textContent = g;
+    genreSel.appendChild(opt);
+  });
+
+  // ソース select も生成
+  const sourceSet = new Set();
+  STATE.events.forEach(e => { if (e.source) sourceSet.add(e.source); });
+  const sourceSel = document.getElementById('filter-source');
+  [...sourceSel.querySelectorAll('option:not(:first-child)')].forEach(o => o.remove());
+  [...sourceSet].sort().forEach(s => {
+    const opt = document.createElement('option');
+    opt.value = s; opt.textContent = s;
+    sourceSel.appendChild(opt);
+  });
+
+  document.getElementById('empty').style.display = 'none';
+  document.getElementById('grid').style.display = 'grid';
+  document.getElementById('controls').style.display = 'flex';
+  document.getElementById('drawer-toggle').style.display = 'block';
+  updateStats();
+  render();
+}
+
+function fmtDate(e) {
+  if (e.date_start && e.date_end && e.date_start !== e.date_end) return `${e.date_start} 〜 ${e.date_end}`;
+  return e.date_start || '日付未取得';
+}
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+function fmtDateCasual(dateStart, dateEnd) {
+  if (!dateStart) return '';
+  const d = new Date(dateStart + 'T00:00:00');
+  if (isNaN(d.getTime())) return dateStart;
+  const today = new Date(); today.setHours(0,0,0,0);
+  const diff = Math.round((d - today) / (1000*60*60*24));
+  const m = d.getMonth() + 1, day = d.getDate();
+  const wd = ['日','月','火','水','木','金','土'][d.getDay()];
+  const dateStr = `${m}/${day}(${wd})`;
+  if (dateEnd && dateEnd !== dateStart) {
+    const d2 = new Date(dateEnd + 'T00:00:00');
+    if (!isNaN(d2.getTime())) {
+      const m2 = d2.getMonth() + 1, day2 = d2.getDate();
+      const wd2 = ['日','月','火','水','木','金','土'][d2.getDay()];
+      return `${dateStr}〜${m2}/${day2}(${wd2})`;
+    }
+  }
+  if (diff === 0) return `今日 ${dateStr}`;
+  if (diff === 1) return `明日 ${dateStr}`;
+  if (diff >= 2 && diff <= 4) return `今週末 ${dateStr}`;
+  if (diff >= 5 && diff <= 11) return `来週 ${dateStr}`;
+  return dateStr;
+}
+
+function shortTitle(title) { return (title || '').replace(/^【[^】]+】/, '').trim(); }
+
+// 出店者・店舗名候補を本文から抽出
+function extractShops(body) {
+  if (!body) return [];
+  const found = new Set();
+  const lines = body.split(/\n+/);
+  for (const line of lines) {
+    const m = line.match(/(?:キッチンカー|出店者?|参加店|参加店舗|出店リスト)[\s::]*[：:]\s*(.+)/);
+    if (m) {
+      const list = m[1].split(/[、,／/]|・/).map(s => s.trim()).filter(s => s && s.length > 1 && s.length < 40);
+      list.forEach(s => found.add(s));
+    }
+  }
+  // 「○○さん」言及を拾う（たまにいい固有名詞が取れる）
+  const sanRe = /([一-龠ぁ-んァ-ヶー\w]{2,15})さん/g;
+  let m2;
+  while ((m2 = sanRe.exec(body)) !== null) {
+    const candidate = m2[1];
+    // 一般語を除外
+    if (!['お母', '皆', '子ども', 'ゲスト', '出店', 'お客', 'スタッフ'].some(w => candidate.includes(w))) {
+      found.add(candidate + 'さん');
+    }
+  }
+  // 株式会社系
+  const corpRe = /([一-龠ぁ-んァ-ヶー\w]{2,15}(?:株式会社|（株）|\(株\)))/g;
+  let m3;
+  while ((m3 = corpRe.exec(body)) !== null) found.add(m3[1]);
+  return [...found].slice(0, 30);
+}
+
+// 場所欄から特徴的な単語を抽出（タトネ等）
+function extractVenueKeywords(venue) {
+  if (!venue) return [];
+  const keywords = [];
+  const stopwords = new Set([
+    'ショッピングセンター', 'ショッピング', 'センター', 'カワマチ',
+    'リーディング', 'プロジェクト', 'マネジメント', 'プラザ', 'ガーデン',
+    'エリア', 'スペース', 'シネマ', 'ホール', 'ステージ',
+  ]);
+  const re = /[ァ-ヶー]{3,12}/g;
+  let m;
+  while ((m = re.exec(venue)) !== null) {
+    const w = m[0];
+    if (!stopwords.has(w) && !keywords.includes(w)) keywords.push(w);
+  }
+  return keywords;
+}
+
+function applyFilters(events) {
+  const f = STATE.filters;
+  return events.filter(e => {
+    if (e.archived) return false;
+    if (f.category && e.category_primary !== f.category) return false;
+    if (f.genre && !(e.genres || []).includes(f.genre)) return false;
+    if (f.source && e.source !== f.source) return false;
+    if (f.status === 'upcoming-or-ongoing') {
+      if (!['開催予定','開催中'].includes(e.status)) return false;
+    } else if (f.status === 'upcoming') { if (e.status !== '開催予定') return false; }
+    else if (f.status === 'ongoing') { if (e.status !== '開催中') return false; }
+    else if (f.status === 'ended') { if (e.status !== '終了') return false; }
+    if (f.excludeKitchenCar && e.is_kitchen_car) return false;
+    if (f.decision) {
+      const dec = STATE.decisions[e.id] || 'undecided';
+      if (f.decision !== dec) return false;
+    }
+    if (f.keyword) {
+      const k = f.keyword.toLowerCase();
+      const blob = [e.title, e.body, e.organizer, e.venue, e.source, ...(e.tags||[]), ...(e.genres||[]), ...(e.hashtags||[])].filter(Boolean).join(' ').toLowerCase();
+      if (!blob.includes(k)) return false;
+    }
+    return true;
+  });
+}
+
+function statusClass(s) { return ({'開催予定':'upcoming','開催中':'ongoing','終了':'ended'})[s] || ''; }
+function categoryClass(c) { return ({'せいせきカワマチ':'cat-kawamachi','まちなか':'cat-machinaka','ショッピングセンター':'cat-sc'})[c] || 'cat-other'; }
+function decisionState(id) { return STATE.decisions[id] || 'undecided'; }
+function setDecision(id, dec) {
+  if (STATE.decisions[id] === dec) delete STATE.decisions[id];
+  else STATE.decisions[id] = dec;
+  saveAll(); updateStats(); render(); renderDrawer();
+}
+
+function renderCard(e) {
+  const dec = decisionState(e.id);
+  const card = document.createElement('article');
+  card.className = 'card' + (dec === 'adopt' ? ' adopted' : dec === 'reject' ? ' rejected' : dec === 'hold' ? ' hold' : '');
+  if (e.image_url) {
+    const img = document.createElement('img');
+    img.className = 'card-img'; img.alt = e.title; img.loading = 'lazy'; img.src = e.image_url;
+    img.onerror = () => {
+      img.replaceWith(Object.assign(document.createElement('div'), { className:'card-img placeholder', textContent:'no image' }));
+    };
+    card.appendChild(img);
+  } else {
+    const ph = document.createElement('div');
+    ph.className = 'card-img placeholder'; ph.textContent = 'no image';
+    card.appendChild(ph);
+  }
+  if (e.status) {
+    const sb = document.createElement('span');
+    sb.className = 'card-status-badge ' + statusClass(e.status);
+    sb.textContent = e.status;
+    card.appendChild(sb);
+  }
+  const body = document.createElement('div');
+  body.className = 'card-body';
+  const date = document.createElement('div');
+  date.className = 'card-date'; date.textContent = fmtDate(e);
+  body.appendChild(date);
+  const title = document.createElement('h3');
+  title.className = 'card-title'; title.textContent = e.title;
+  body.appendChild(title);
+  const meta = document.createElement('div');
+  meta.className = 'card-meta';
+  if (e.time_label) meta.innerHTML += `<div><b>時間</b> ${escapeHtml(e.time_label)}</div>`;
+  if (e.venue) meta.innerHTML += `<div><b>場所</b> ${escapeHtml(e.venue)}</div>`;
+  if (e.organizer) meta.innerHTML += `<div><b>主催</b> ${escapeHtml(e.organizer)}</div>`;
+  if (e.source) meta.innerHTML += `<div style="color:var(--ink-mute); font-family:var(--mono); font-size:10px; margin-top:2px;">via ${escapeHtml(e.source)}</div>`;
+  body.appendChild(meta);
+
+  // 神社系の年中行事は日程変動するため、「要日程確認」を強調表示
+  if (e.source === 'jinja-recurring.local') {
+    const warn = document.createElement('div');
+    warn.style.cssText = 'margin-top:6px; padding:6px 8px; background:#fff5d6; border:1px solid #e6c050; border-radius:4px; font-size:11px; color:#7a5e00; line-height:1.5;';
+    // body 中の "※ ..." 行を取り出す
+    const noteLine = (e.body || '').split('\n').map(s => s.trim()).find(s => s.startsWith('※'));
+    if (noteLine) {
+      warn.textContent = noteLine;
+    } else {
+      warn.textContent = '※ 日程は推定です。最新情報は公式サイトでご確認ください。';
+    }
+    body.appendChild(warn);
+  }
+  const badges = document.createElement('div');
+  badges.className = 'card-badges';
+  if (e.category_primary) {
+    const b = document.createElement('span');
+    b.className = 'badge ' + categoryClass(e.category_primary);
+    b.textContent = e.category_primary;
+    badges.appendChild(b);
+  }
+  (e.genres || []).forEach(g => {
+    const b = document.createElement('span');
+    b.className = 'badge genre'; b.textContent = g; badges.appendChild(b);
+  });
+  body.appendChild(badges);
+  const linkRow = document.createElement('div');
+  linkRow.style.cssText = 'margin-top:6px; font-size:11px;';
+  linkRow.innerHTML = `<a href="${e.url}" target="_blank" rel="noopener">公式ページを開く ↗</a>`;
+  body.appendChild(linkRow);
+  card.appendChild(body);
+  const actions = document.createElement('div');
+  actions.className = 'card-actions';
+  const mkBtn = (label, key) => {
+    const btn = document.createElement('button');
+    btn.textContent = label;
+    btn.className = key + (dec === key ? ' active' : '');
+    btn.onclick = () => setDecision(e.id, key);
+    return btn;
+  };
+  actions.appendChild(mkBtn('採用', 'adopt'));
+  actions.appendChild(mkBtn('後で', 'hold'));
+  actions.appendChild(mkBtn('不採用', 'reject'));
+  card.appendChild(actions);
+  return card;
+}
+
+function render() {
+  const grid = document.getElementById('grid');
+  grid.innerHTML = '';
+  const filtered = applyFilters(STATE.events);
+  if (filtered.length === 0) {
+    const empty = document.createElement('div');
+    empty.className = 'grid-empty';
+    empty.textContent = '条件に合致するイベントがありません。フィルタを変えてみてください。';
+    grid.appendChild(empty);
+    return;
+  }
+  filtered.sort((a, b) => (b.date_start || '0000').localeCompare(a.date_start || '0000'));
+  filtered.forEach(e => grid.appendChild(renderCard(e)));
+}
+
+function updateStats() {
+  const total = STATE.events.length;
+  const adopted = Object.values(STATE.decisions).filter(d => d === 'adopt').length;
+  const hold = Object.values(STATE.decisions).filter(d => d === 'hold').length;
+  document.querySelector('#stats').firstElementChild.innerHTML = `data: <b>${total}件</b>`;
+  document.getElementById('adopt-count').textContent = adopted;
+  document.getElementById('hold-count').textContent = hold;
+  document.getElementById('adopt-count-2').textContent = adopted;
+}
+
+// ハッシュタグ管理
+function getActiveHashtags(e) {
+  let sel = STATE.selectedHashtags[e.id];
+  if (sel === undefined) {
+    sel = [...(CATEGORY_HASHTAGS[e.category_primary] || ['#聖蹟桜ヶ丘'])];
+    STATE.selectedHashtags[e.id] = sel;
+  }
+  return sel;
+}
+function toggleHashtag(eventId, tag) {
+  if (!STATE.selectedHashtags[eventId]) STATE.selectedHashtags[eventId] = [];
+  const arr = STATE.selectedHashtags[eventId];
+  const i = arr.indexOf(tag);
+  if (i >= 0) arr.splice(i, 1); else arr.push(tag);
+  saveAll();
+}
+function getCustomHashtags(eventId) { return STATE.customHashtags[eventId] || []; }
+function addCustomHashtag(eventId, tag) {
+  if (!tag) return;
+  if (!tag.startsWith('#')) tag = '#' + tag;
+  if (!STATE.customHashtags[eventId]) STATE.customHashtags[eventId] = [];
+  if (!STATE.customHashtags[eventId].includes(tag)) {
+    STATE.customHashtags[eventId].push(tag);
+    if (!STATE.selectedHashtags[eventId]) STATE.selectedHashtags[eventId] = [];
+    if (!STATE.selectedHashtags[eventId].includes(tag)) STATE.selectedHashtags[eventId].push(tag);
+  }
+  saveAll();
+}
+function removeCustomHashtag(eventId, tag) {
+  if (STATE.customHashtags[eventId]) {
+    const i = STATE.customHashtags[eventId].indexOf(tag);
+    if (i >= 0) STATE.customHashtags[eventId].splice(i, 1);
+  }
+  if (STATE.selectedHashtags[eventId]) {
+    const i = STATE.selectedHashtags[eventId].indexOf(tag);
+    if (i >= 0) STATE.selectedHashtags[eventId].splice(i, 1);
+  }
+  saveAll();
+}
+
+// テンプレート：3パターン
+function defaultComposeText(e, style, platform) {
+  const dateCasual = fmtDateCasual(e.date_start, e.date_end);
+  const short = shortTitle(e.title);
+  const url = e.url || '';
+  const hashtagLine = getActiveHashtags(e).join(' ');
+  const summary = (e.body || '').split(/(?<=[。！？!?])/).map(s => s.trim()).filter(Boolean).slice(0, 2).join('').trim();
+  const lines = [];
+
+  if (style === 'announce') {
+    if (e.category_primary === 'せいせきカワマチ') {
+      lines.push(`${dateCasual}は多摩川河川敷の「せいせきカワマチ」で${short}が開催。`);
+    } else if (e.category_primary === 'ショッピングセンター') {
+      lines.push(`${dateCasual}は京王聖蹟桜ヶ丘ショッピングセンターで${short}が開催。`);
+    } else {
+      lines.push(`${dateCasual}は聖蹟桜ヶ丘で${short}が開催。`);
+    }
+    if (summary) {
+      const oneline = summary.split(/(?<=[。！？!?])/)[0].trim();
+      if (oneline && oneline.length < 80) lines.push(oneline);
+    }
+    if (url) {
+      if (platform === 'ig') lines.push('');
+      lines.push(url);
+    }
+    if (hashtagLine) {
+      if (platform === 'ig') lines.push('');
+      lines.push(hashtagLine);
+    }
+  } else if (style === 'live') {
+    if (e.category_primary === 'せいせきカワマチ') {
+      lines.push(`今日のせいせきカワマチは${short}開催！`);
+    } else if (e.category_primary === 'ショッピングセンター') {
+      lines.push(`今日は京王聖蹟桜ヶ丘ショッピングセンターで${short}。`);
+    } else {
+      lines.push(`今日は聖蹟桜ヶ丘で${short}！`);
+    }
+    lines.push('');
+    lines.push('（ここに体験や感想を：食べたもの、買ったもの、お店の人とのやりとり等）');
+    if (url) { lines.push(''); lines.push(url); }
+    if (hashtagLine) { lines.push(''); lines.push(hashtagLine); }
+  } else {
+    lines.push(short);
+    if (url) lines.push(url);
+    if (hashtagLine) lines.push(hashtagLine);
+  }
+  return lines.join('\n').trim();
+}
+
+function getUiState(eventId) {
+  if (!STATE.uiState[eventId]) STATE.uiState[eventId] = { style: 'announce', platform: 'x' };
+  return STATE.uiState[eventId];
+}
+function setUiState(eventId, patch) {
+  STATE.uiState[eventId] = { ...getUiState(eventId), ...patch };
+  saveAll();
+}
+function getComposeText(e, style, platform) {
+  const v = STATE.composeEdits?.[e.id]?.[platform]?.[style];
+  if (v !== undefined && v !== null) return v;
+  return defaultComposeText(e, style, platform);
+}
+function setComposeText(e, style, platform, text) {
+  if (!STATE.composeEdits[e.id]) STATE.composeEdits[e.id] = {};
+  if (!STATE.composeEdits[e.id][platform]) STATE.composeEdits[e.id][platform] = {};
+  STATE.composeEdits[e.id][platform][style] = text;
+  saveAll();
+}
+function clearComposeText(e, style, platform) {
+  if (STATE.composeEdits[e.id]?.[platform]) {
+    delete STATE.composeEdits[e.id][platform][style];
+    saveAll();
+  }
+}
+
+function renderDrawer() {
+  const body = document.getElementById('drawer-body');
+  body.innerHTML = '';
+  const adopted = STATE.events.filter(e => decisionState(e.id) === 'adopt');
+  if (adopted.length === 0) {
+    const em = document.createElement('div');
+    em.className = 'drawer-empty';
+    em.textContent = 'まだ採用されたイベントがありません。';
+    body.appendChild(em);
+    return;
+  }
+  adopted.sort((a, b) => (a.date_start || '9999').localeCompare(b.date_start || '9999'));
+  adopted.forEach(e => body.appendChild(renderDrawerEvent(e)));
+}
+
+function renderDrawerEvent(e) {
+  const wrap = document.createElement('div');
+  wrap.className = 'drawer-event';
+
+  const h = document.createElement('h3');
+  h.textContent = e.title;
+  wrap.appendChild(h);
+
+  const meta = document.createElement('div');
+  meta.className = 'meta';
+  meta.textContent = `${fmtDate(e)} · ${e.category_primary || '-'}`;
+  wrap.appendChild(meta);
+
+  const ui = getUiState(e.id);
+
+  // ハッシュタグ管理セクション
+  wrap.appendChild(renderHashtagSection(e));
+
+  // 出店者
+  const shopSection = renderShopSection(e);
+  if (shopSection) wrap.appendChild(shopSection);
+
+  // スタイルタブ
+  const styleTabs = document.createElement('div');
+  styleTabs.className = 'style-tabs';
+  [
+    {key:'announce', label:'告知系（事前）'},
+    {key:'live',     label:'実況系（当日）'},
+    {key:'simple',   label:'シンプル'},
+  ].forEach(({key, label}) => {
+    const btn = document.createElement('button');
+    btn.textContent = label;
+    btn.className = (ui.style === key) ? 'active' : '';
+    btn.onclick = () => { setUiState(e.id, { style: key }); renderDrawer(); };
+    styleTabs.appendChild(btn);
+  });
+  wrap.appendChild(styleTabs);
+
+  const platRow = document.createElement('div');
+  platRow.className = 'platform-row';
+  [{key:'x', label:'X'}, {key:'ig', label:'Instagram'}].forEach(({key, label}) => {
+    const btn = document.createElement('button');
+    btn.textContent = label;
+    btn.className = (ui.platform === key) ? 'active' : '';
+    btn.onclick = () => { setUiState(e.id, { platform: key }); renderDrawer(); };
+    platRow.appendChild(btn);
+  });
+  wrap.appendChild(platRow);
+
+  const compose = document.createElement('div');
+  compose.className = 'compose-area';
+  const textarea = document.createElement('textarea');
+  textarea.value = getComposeText(e, ui.style, ui.platform);
+  textarea.oninput = () => {
+    setComposeText(e, ui.style, ui.platform, textarea.value);
+    updateCharCount();
+  };
+  compose.appendChild(textarea);
+
+  const count = document.createElement('div');
+  count.className = 'char-count';
+  const lenSpan = document.createElement('span');
+  count.appendChild(lenSpan);
+  const limit = PLATFORM_LIMITS[ui.platform];
+  const updateCharCount = () => {
+    const len = textarea.value.length;
+    lenSpan.textContent = `${len} / ${limit} 文字`;
+    count.classList.toggle('over', len > limit);
+  };
+  const copyBtn = document.createElement('button');
+  copyBtn.className = 'copy-btn';
+  copyBtn.textContent = 'コピー';
+  copyBtn.onclick = async () => {
+    try {
+      await navigator.clipboard.writeText(textarea.value);
+      copyBtn.textContent = '✓ コピー済';
+      copyBtn.classList.add('copied');
+      setTimeout(() => { copyBtn.textContent = 'コピー'; copyBtn.classList.remove('copied'); }, 1500);
+    } catch (err) { alert('クリップボードへのコピーに失敗しました'); }
+  };
+  count.appendChild(copyBtn);
+  compose.appendChild(count);
+  updateCharCount();
+
+  const resetBtn = document.createElement('button');
+  resetBtn.className = 'clear-btn';
+  resetBtn.style.cssText = 'margin-top: 8px;';
+  resetBtn.textContent = 'この本文をデフォルトに戻す';
+  resetBtn.onclick = () => { clearComposeText(e, ui.style, ui.platform); renderDrawer(); };
+  compose.appendChild(resetBtn);
+
+  wrap.appendChild(compose);
+
+  if (e.image_url) {
+    const link = document.createElement('div');
+    link.className = 'image-link';
+    link.innerHTML = `<b>チラシ画像URL:</b> <a href="${e.image_url}" target="_blank" rel="noopener">${e.image_url.split('/').pop()} ↗</a>`;
+    wrap.appendChild(link);
+  }
+  return wrap;
+}
+
+function renderHashtagSection(e) {
+  const sec = document.createElement('div');
+  sec.className = 'aux-section';
+  const h4 = document.createElement('h4');
+  h4.textContent = 'ハッシュタグ（クリックでON/OFF）';
+  sec.appendChild(h4);
+
+  const cat = e.category_primary;
+  const catDefault = CATEGORY_HASHTAGS[cat] || ['#聖蹟桜ヶ丘'];
+  const venueKws = extractVenueKeywords(e.venue || '').map(k => '#' + k);
+  const allCandidates = [...catDefault, ...BONUS_HASHTAGS, ...venueKws, ...getCustomHashtags(e.id)];
+  const seen = new Set();
+  const candidates = allCandidates.filter(t => { if (seen.has(t)) return false; seen.add(t); return true; });
+
+  const active = getActiveHashtags(e);
+  const customSet = new Set(getCustomHashtags(e.id));
+
+  const chipWrap = document.createElement('div');
+  candidates.forEach(tag => {
+    const chip = document.createElement('span');
+    chip.className = 'hashtag-chip' + (active.includes(tag) ? ' active' : '');
+    chip.textContent = tag;
+    chip.onclick = (ev) => {
+      if (ev.target.classList.contains('x')) return;
+      toggleHashtag(e.id, tag);
+      renderDrawer();
+    };
+    if (customSet.has(tag)) {
+      const x = document.createElement('span');
+      x.className = 'x'; x.textContent = '×'; x.title = 'このカスタムタグを削除';
+      x.onclick = (ev) => { ev.stopPropagation(); removeCustomHashtag(e.id, tag); renderDrawer(); };
+      chip.appendChild(x);
+    }
+    chipWrap.appendChild(chip);
+  });
+  sec.appendChild(chipWrap);
+
+  const inputRow = document.createElement('div');
+  inputRow.style.cssText = 'margin-top: 8px; display: flex; align-items: center;';
+  const input = document.createElement('input');
+  input.type = 'text'; input.className = 'hashtag-input';
+  input.placeholder = '独自タグ追加 (#KAOFES2026 等)';
+  input.onkeydown = (ev) => {
+    if (ev.key === 'Enter') {
+      const v = input.value.trim();
+      if (v) { addCustomHashtag(e.id, v); input.value = ''; renderDrawer(); }
+    }
+  };
+  const addBtn = document.createElement('button');
+  addBtn.className = 'clear-btn'; addBtn.textContent = '追加';
+  addBtn.onclick = () => {
+    const v = input.value.trim();
+    if (v) { addCustomHashtag(e.id, v); input.value = ''; renderDrawer(); }
+  };
+  inputRow.appendChild(input);
+  inputRow.appendChild(addBtn);
+  sec.appendChild(inputRow);
+
+  return sec;
+}
+
+function renderShopSection(e) {
+  const shops = extractShops(e.body || '');
+  if (shops.length === 0) return null;
+  const sec = document.createElement('div');
+  sec.className = 'aux-section';
+  const h4 = document.createElement('h4');
+  h4.textContent = `お店・出店者（本文から自動抽出 ${shops.length}件）`;
+  sec.appendChild(h4);
+  const list = document.createElement('div');
+  list.className = 'shop-list';
+  shops.forEach(name => {
+    const row = document.createElement('div');
+    row.className = 'shop-row';
+    const n = document.createElement('span');
+    n.className = 'shop-name'; n.textContent = name;
+    row.appendChild(n);
+    const igLink = document.createElement('a');
+    igLink.href = `https://www.google.com/search?q=${encodeURIComponent(name + ' Instagram')}`;
+    igLink.target = '_blank'; igLink.rel = 'noopener'; igLink.textContent = 'IG検索 ↗';
+    row.appendChild(igLink);
+    const webLink = document.createElement('a');
+    webLink.href = `https://www.google.com/search?q=${encodeURIComponent(name + ' 聖蹟桜ヶ丘')}`;
+    webLink.target = '_blank'; webLink.rel = 'noopener'; webLink.textContent = 'Web検索 ↗';
+    row.appendChild(webLink);
+    list.appendChild(row);
+  });
+  sec.appendChild(list);
+  const note = document.createElement('div');
+  note.style.cssText = 'margin-top: 8px; font-size: 11px; color: var(--ink-mute);';
+  note.textContent = '※ 自動抽出のため誤検出を含みます。実際のお店は本文・公式ページで要確認。';
+  sec.appendChild(note);
+  return sec;
+}
+
+function init() {
+  loadAll();
+  // 起動時に同じディレクトリの data/events.json を自動読込
+  // 失敗した場合は従来通り「別ファイル読込」「ドラッグ&ドロップ」を促す
+  fetch('./data/events.json', { cache: 'no-store' })
+    .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+    .then(data => {
+      if (!Array.isArray(data)) throw new Error('JSON is not an array');
+      STATE.events = data;
+      onDataLoaded();
+    })
+    .catch(err => {
+      // ローカル直接open等で fetch できない/ファイルがない場合
+      console.info('[curator] auto-load failed, falling back to manual load:', err.message);
+    });
+
+  const fileInput = document.getElementById('file-input');
+  fileInput.addEventListener('change', (e) => { if (e.target.files[0]) loadEventsFromFile(e.target.files[0]); });
+  const empty = document.getElementById('empty');
+  ['dragenter','dragover'].forEach(ev => empty.addEventListener(ev, e => { e.preventDefault(); empty.classList.add('dragover'); }));
+  ['dragleave','drop'].forEach(ev => empty.addEventListener(ev, e => { e.preventDefault(); empty.classList.remove('dragover'); }));
+  empty.addEventListener('drop', (e) => { if (e.dataTransfer.files[0]) loadEventsFromFile(e.dataTransfer.files[0]); });
+  document.body.addEventListener('dragover', e => e.preventDefault());
+  document.body.addEventListener('drop', (e) => {
+    e.preventDefault();
+    if (STATE.events.length === 0) return;
+    if (e.dataTransfer.files[0]) {
+      if (confirm('別の events.json で読み替えますか？')) loadEventsFromFile(e.dataTransfer.files[0]);
+    }
+  });
+
+  const fc = document.getElementById('filter-category');
+  fc.onchange = () => { STATE.filters.category = fc.value; render(); };
+  const fg = document.getElementById('filter-genre');
+  fg.onchange = () => { STATE.filters.genre = fg.value; render(); };
+  const fsrc = document.getElementById('filter-source');
+  fsrc.onchange = () => { STATE.filters.source = fsrc.value; render(); };
+  const fs = document.getElementById('filter-status');
+  fs.onchange = () => { STATE.filters.status = fs.value; render(); };
+  const fk = document.getElementById('filter-keyword');
+  let kwTimer;
+  fk.oninput = () => { clearTimeout(kwTimer); kwTimer = setTimeout(() => { STATE.filters.keyword = fk.value; render(); }, 200); };
+  const fd = document.getElementById('filter-decision');
+  fd.onchange = () => { STATE.filters.decision = fd.value; render(); };
+  const fkc = document.getElementById('filter-no-kc');
+  fkc.onchange = () => { STATE.filters.excludeKitchenCar = fkc.checked; render(); };
+
+  document.getElementById('reset-filters').onclick = () => {
+    STATE.filters = { category:'', genre:'', source:'', status:'upcoming-or-ongoing', keyword:'', decision:'', excludeKitchenCar:false };
+    fc.value=''; fg.value=''; fsrc.value=''; fs.value='upcoming-or-ongoing'; fk.value=''; fd.value=''; fkc.checked=false;
+    render();
+  };
+  document.getElementById('reset-decisions').onclick = () => {
+    if (!confirm('採用状態をすべてクリアしますか？')) return;
+    STATE.decisions = {};
+    saveAll(); updateStats(); render(); renderDrawer();
+  };
+  document.getElementById('load-other').onclick = () => fileInput.click();
+
+  const drawer = document.getElementById('drawer');
+  document.getElementById('drawer-toggle').onclick = () => { drawer.classList.add('open'); renderDrawer(); };
+  document.getElementById('drawer-close').onclick = () => { drawer.classList.remove('open'); };
+}
+init();
+</script>
+
+<footer style="max-width:1180px; margin:60px auto 30px; padding:20px; border-top:1px solid var(--rule); font-size:11px; color:var(--ink-mute); line-height:1.7;">
+  <div style="margin-bottom:6px;">
+    <b>seiseki curator</b> ―
+    聖蹟桜ヶ丘エリアのイベント情報を1か所で見られるサイト。
+    地域の友人たちと情報を共有するための個人プロジェクトです。
+  </div>
+  <div style="margin-bottom:6px;">
+    各イベント情報の権利は元サイト・主催者に帰属します。
+    画像は元サイトを直接参照しています（再配信・保存はしていません）。
+    神社の年中行事は推定日程です、実施日時は各神社の公式サイトでご確認ください。
+  </div>
+  <div>
+    <a href="https://github.com/Takesen110/seiseki-event-curator" target="_blank" rel="noopener" style="color:var(--ink-mute);">ソースコード（GitHub）</a>
+    ・ MIT License ・ 不快に思われた場合はお手数ですが <a href="https://github.com/Takesen110/seiseki-event-curator/issues" target="_blank" rel="noopener" style="color:var(--ink-mute);">Issue</a> でご一報ください
+  </div>
+</footer>
+
+</body>
+</html>

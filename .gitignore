@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# 画像はリポジトリに含めない（元URLを参照する運用）
+data/images/
+
+# 開発の一時ファイル
+test_*.tmp
+*.tmp
+
+# === 開発過程のzipアーカイブ・バックアップは公開しない ===
+*.zip
+seiseki-curator-step*.zip
+scrapers_backup_*/
+scrapers_backup*/
+
+# === 旧バージョンの単体ファイル（scrapers/ 配下に統合済み） ===
+/seiseki_org.py
+/seiseki_scraper.py
+
+# === 古い・統合済みのテストファイル ===
+test_integration.py
+test_parser.py
+test_classification.py
+test_extraction_v2.py
+test_extraction_v3.py
+test_curator_logic.js
+test_curator_v2.js
