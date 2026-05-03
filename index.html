@@ -427,6 +427,23 @@ function escapeHtml(s) {
   return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 }
 
+// セキュリティ: URLに javascript:, data:, vbscript: 等を含まないことを確認
+// 信頼できるスキーム以外は about:blank に置換して、XSSと意図しない遷移を防ぐ
+function safeUrl(url) {
+  if (!url || typeof url !== 'string') return 'about:blank';
+  const trimmed = url.trim();
+  // 相対URL or http/https/mailto はOK
+  if (/^https?:\/\//i.test(trimmed)) return trimmed;
+  if (/^mailto:/i.test(trimmed)) return trimmed;
+  if (/^\//.test(trimmed)) return trimmed;
+  if (/^[a-zA-Z0-9._-]+\.[a-zA-Z]{2,}/.test(trimmed) && !/:/.test(trimmed)) {
+    // ドメインっぽい相対 → https:// 補完
+    return 'https://' + trimmed;
+  }
+  // それ以外（javascript:, data:, vbscript: 等）は無効化
+  return 'about:blank';
+}
+
 function fmtDateCasual(dateStart, dateEnd) {
   if (!dateStart) return '';
   const d = new Date(dateStart + 'T00:00:00');
@@ -601,7 +618,14 @@ function renderCard(e) {
   body.appendChild(badges);
   const linkRow = document.createElement('div');
   linkRow.style.cssText = 'margin-top:6px; font-size:11px;';
-  linkRow.innerHTML = `<a href="${e.url}" target="_blank" rel="noopener">公式ページを開く ↗</a>`;
+  // セキュリティ: innerHTMLは使わず、createElementで属性を設定
+  // javascript:や data: スキームを除外
+  const linkA = document.createElement('a');
+  linkA.href = safeUrl(e.url);
+  linkA.target = '_blank';
+  linkA.rel = 'noopener';
+  linkA.textContent = '公式ページを開く ↗';
+  linkRow.appendChild(linkA);
   body.appendChild(linkRow);
   card.appendChild(body);
   const actions = document.createElement('div');
@@ -871,7 +895,21 @@ function renderDrawerEvent(e) {
   if (e.image_url) {
     const link = document.createElement('div');
     link.className = 'image-link';
-    link.innerHTML = `<b>チラシ画像URL:</b> <a href="${e.image_url}" target="_blank" rel="noopener">${e.image_url.split('/').pop()} ↗</a>`;
+    // セキュリティ: createElement + textContent で安全に構築
+    const label = document.createElement('b');
+    label.textContent = 'チラシ画像URL:';
+    link.appendChild(label);
+    link.appendChild(document.createTextNode(' '));
+    const a = document.createElement('a');
+    a.href = safeUrl(e.image_url);
+    a.target = '_blank';
+    a.rel = 'noopener';
+    try {
+      a.textContent = (e.image_url.split('/').pop() || e.image_url) + ' ↗';
+    } catch (_) {
+      a.textContent = '画像 ↗';
+    }
+    link.appendChild(a);
     wrap.appendChild(link);
   }
   return wrap;
