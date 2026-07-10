@@ -24,7 +24,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-07-07T22:19:34Z",
+    "last_seen": "2026-07-10T22:11:36Z",
     "archived": false
   },
   {
@@ -52,7 +52,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-07-07T22:19:34Z",
+    "last_seen": "2026-07-10T22:11:36Z",
     "archived": false
   },
   {
@@ -82,7 +82,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-07-07T22:19:34Z",
+    "last_seen": "2026-07-10T22:11:36Z",
     "archived": false
   },
   {
@@ -110,7 +110,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-07-07T22:19:34Z",
+    "last_seen": "2026-07-10T22:11:36Z",
     "archived": false
   },
   {
@@ -138,7 +138,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-07-07T22:19:34Z",
+    "last_seen": "2026-07-10T22:11:36Z",
     "archived": false
   },
   {
@@ -166,7 +166,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-07-07T22:19:34Z",
+    "last_seen": "2026-07-10T22:11:36Z",
     "archived": false
   },
   {
@@ -194,7 +194,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-07-07T22:19:34Z",
+    "last_seen": "2026-07-10T22:11:36Z",
     "archived": false
   },
   {
@@ -222,7 +222,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-07-07T22:19:34Z",
+    "last_seen": "2026-07-10T22:11:36Z",
     "archived": false
   },
   {
@@ -250,7 +250,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-07-07T22:19:34Z",
+    "last_seen": "2026-07-10T22:11:36Z",
     "archived": false
   },
   {
@@ -278,7 +278,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-07-07T22:19:34Z",
+    "last_seen": "2026-07-10T22:11:36Z",
     "archived": false
   },
   {
@@ -306,7 +306,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-07-07T22:19:34Z",
+    "last_seen": "2026-07-10T22:11:36Z",
     "archived": false
   },
   {
@@ -336,7 +336,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-07-07T22:19:34Z",
+    "last_seen": "2026-07-10T22:11:36Z",
     "archived": false
   },
   {
@@ -364,7 +364,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-07-07T22:19:34Z",
+    "last_seen": "2026-07-10T22:11:36Z",
     "archived": false
   },
   {
@@ -392,7 +392,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-07-07T22:19:34Z",
+    "last_seen": "2026-07-10T22:11:36Z",
     "archived": false
   },
   {
@@ -421,7 +421,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:52Z",
-    "last_seen": "2026-07-07T22:17:48Z",
+    "last_seen": "2026-07-10T22:10:18Z",
     "archived": false
   },
   {
@@ -480,7 +480,38 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-07-03T22:12:18Z",
-    "last_seen": "2026-07-07T22:17:46Z",
+    "last_seen": "2026-07-10T22:10:16Z",
+    "archived": false
+  },
+  {
+    "id": "keiosc-000730",
+    "source": "keio-sc.jp",
+    "url": "https://www.keio-sc.jp/eventtopics/detail/?cd=000730",
+    "title": "ポイント5倍キャンペーン",
+    "date_label": "7月24日（金）～7月26日（日）",
+    "date_start": "2026-07-24",
+    "date_end": "2026-07-26",
+    "status": "開催予定",
+    "tags": [
+      "ショッピングセンター"
+    ],
+    "category_primary": "ショッピングセンター",
+    "genres": [
+      "culture"
+    ],
+    "hashtags": [
+      "#せいせきSC",
+      "#聖蹟桜ヶ丘"
+    ],
+    "image_url": "https://www.keio-sc.jp/uploads/images/resized/316x152/seiseki/000002/000002/a9d16414.jpg",
+    "image_local": null,
+    "body": "TOPICS\n\nポイント5倍キャンペーン\n\nポイント5倍キャンペーン\n\n＼＼ポイント5倍キャンペーン／／\n\n期間：7月24日（金）～7月26日（日）\n\n期間中、京王パスポートカードご利用のお買い上げ・ご飲食についてお買い上げポイントが通常の５倍に！\n\nコジマ×ビックカメラでも、京王ポイントがたまる！使える！\n\n※コジマ×ビックカメラの京王ポイント付与は、京王パスポートカードご利用のお買い上げについて216円（税込）で1ポイントとなります。\n\n■ポイント５倍キャンペーンの対象店舗■\n\n・せいせき専門店 ・B館8階 せいせきダイニング[クー！] ・C館2階 丘のうえキッチン ・A館6階コジマ×ビックカメラ・A館1階お酒の美術館・クラウン街　天丼 てんや、旭鮨総本店、イタリアンダイニングDONA、おむすび権米衛、総合買取サロンタイムレス、鯛塩そば　灯花・東高架下フランキー・さくらゲート2階　ウインザーラケットショップ ・京王ストア桜ヶ丘店\n\n※京王アートマン聖蹟桜ヶ丘店、B階4階DHC、B館6階ダイソー、スリーピー、スタンダードプロダクツは期間中ポイント10倍となります。\n\n※京\n王百貨店、クラウン街・高架下、さくらゲート各店および一部の専門店は対象外になります。\n\nぜひ、このお得な機会にご利用ください。\n\n期間\n7月24日（金）～7月26日（日）\n\nTOP\n\nイベント&トピックス\n\nポイント5倍キャンペーン\n\nホーム\nフロアガイド\nグルメ\nイベント＆トピックス\nショップニュース\n施設案内\nアクセス＆駐車場\n\nフロアガイド\nグルメ\nイベント＆トピックス\nショップニュース\n施設案内\nアクセス＆駐車場\n\nフロアガイド\n\nグルメ\n\nイベント＆トピックス\n\nショップニュース\n\n施設案内\n\nアクセス＆駐車場",
+    "venue": null,
+    "organizer": null,
+    "time_label": null,
+    "is_kitchen_car": false,
+    "first_seen": "2026-07-10T22:10:12Z",
+    "last_seen": "2026-07-10T22:10:12Z",
     "archived": false
   },
   {
@@ -511,7 +542,7 @@
     "time_label": "10：00～17：00",
     "is_kitchen_car": false,
     "first_seen": "2026-06-23T22:21:28Z",
-    "last_seen": "2026-07-07T22:17:45Z",
+    "last_seen": "2026-07-10T22:10:15Z",
     "archived": false
   },
   {
@@ -542,7 +573,98 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-07-03T22:12:57Z",
-    "last_seen": "2026-07-05T22:09:58Z",
+    "last_seen": "2026-07-10T22:11:07Z",
+    "archived": false
+  },
+  {
+    "id": "keionet-006334",
+    "source": "keionet.com",
+    "url": "https://www.keionet.com/info/seisekisakuragaoka/topics/006334.html",
+    "title": "【聖蹟桜ヶ丘店 LINE友だち限定】京王パスポートカード 3％アップポイント特別ご優待のお知らせ",
+    "date_label": "7/18(土)→29(水)",
+    "date_start": "2026-07-18",
+    "date_end": "2026-07-29",
+    "status": "開催予定",
+    "tags": [
+      "ショッピングセンター"
+    ],
+    "category_primary": "ショッピングセンター",
+    "genres": [],
+    "hashtags": [
+      "#せいせきSC",
+      "#聖蹟桜ヶ丘"
+    ],
+    "image_url": "https://www.keionet.com/info/seisekisakuragaoka/topics/cms_img/43163c11e2d9fc5ee8dbefb00e25b1407aeb2d23.png",
+    "image_local": null,
+    "body": "",
+    "venue": null,
+    "organizer": "京王百貨店 聖蹟桜ヶ丘店",
+    "time_label": null,
+    "is_kitchen_car": false,
+    "first_seen": "2026-07-10T22:10:18Z",
+    "last_seen": "2026-07-10T22:10:18Z",
+    "archived": false
+  },
+  {
+    "id": "tamapon-pettanpon",
+    "source": "tamapon.com",
+    "url": "https://tamapon.com/2026/07/08/pettanpon/",
+    "title": "京王「ペッタン・ポン」が令和版で復活！全69駅を巡るデジタルスタンプラリー開催、コンプリートで限定グッズも2026.07.08",
+    "date_label": "",
+    "date_start": "2026-07-18",
+    "date_end": "2026-10-12",
+    "status": "開催予定",
+    "tags": [
+      "まちなか"
+    ],
+    "category_primary": "まちなか",
+    "genres": [
+      "family"
+    ],
+    "hashtags": [
+      "#聖蹟桜ヶ丘"
+    ],
+    "image_url": "https://tamapon.com/wp-content/uploads/2026/07/202607081039226a4daa4ab7071-485x688.jpeg",
+    "image_local": null,
+    "body": "1980～90年代に京王線ユーザーに親しまれた夏の恒例イベント「ペッタン・ポン」が、デジタルスタンプラリーとして復活します。\n\n京王電鉄は、「京王沿線の想い出 ペッタン・ポン デジタルスタンプラリー」を2026年7月18日(土)から10月12日(月・祝)まで開催します。\n\nスマートフォンアプリ「エキタグ」を使って京王線・井の頭線の全69駅を巡り、懐かしい駅舎の写真を使ったデジタルスタンプを集めるイベントです。\n\n1986～1992年に親しまれた「ペッタン・ポン」がデジタルで復活\n\n今回の企画は、1986年から1992年まで開催されていた夏の人気イベント「夏の想い出 ペッタン・ポン」を、デジタルスタンプラリーとして現代版にアレンジして復活させたものです。\n\n当時を知る沿線利用者から「懐かしい」という声が多く寄せられたことをきっかけに実現しました。\n\nスタンプには、現在では見ることのできない昔の駅舎写真などがデザインされ、往年の京王線ファンには懐かしさを感じられる内容となっています。\n\n全69駅を巡ってデジタルスタンプを集めよう\n\n参加するには、まずスマートフォンに「エキタグ」アプリをインストールします。\n京王線・井の頭線各駅の券売機付近（改札外）に設置されたNFCタグにスマートフォンをかざすと、デジタルスタンプを獲得できます。\n\n1990年代の「ゾーンカラー」も再現\n\nスタンプラリーは、1990年代に駅区間ごとに設定されていたゾーンカラーを再現した7つのエリアで構成されています。多摩地域では以下のエリアが対象です。\n\n西調布駅～中河原駅（レモンイエロー）\n\n聖蹟桜ヶ丘駅～京王八王子駅（イタリアンブルー）\n\n京王片倉駅～高尾山口駅（パーマネントグリーン）\n\n京王多摩川駅～橋本駅（イエローグリーン）\n\n各ゾーンの駅をすべて巡ると、当時活躍した京王電鉄の主力車両をデザインした限定デジタルスタンプも獲得できます。\n\n各ゾーンの全ての駅でデジタルスタンプを獲得すると、「ゾーン達成賞」の限定デジタルスタンプを獲得できます。さらに、全69駅すべてのスタンプを集めると、コンプリートスタンプを獲得できます。\n\nコンプリートすると京王6000系アクリルスタンドをプレゼント\n\nさらに、全69駅すべてのスタンプを集めると、コンプリートスタンプを獲得。\n\n先着3,000人には、京王6000系をデザインしたオリジナルアクリルスタンドがプレゼントされます。\n\n引き換え場所は京王多摩センター駅改札窓口で、引き換え時間は9時～21時です。\n\n夏休みは「小児運賃実質無料キャンペーン」も\n\nイベント期間中には、7月18日(土)～8月31日(月)まで、小児PASMOを対象とした\n京王トレインポイント 小児運賃100％ポイント還元キャンペーン\nも実施されます。\n\nまた、京王線・井の頭線を1日自由に乗り降りできる「京王線・井の頭線一日乗車券」（大人1,000円・小人500円）も販売されるため、スタンプラリーを効率よく巡りたい人はこちらの利用もおすすめです。\n\n「ペッタン・ポン」を知っている世代には懐かしく、初めて体験する子どもたちには新鮮に楽しめそうな企画です。\n\n夏休みのお出かけや沿線散策を兼ねて、親子でチャレンジしてみてはいかがでしょうか。\n\n京王沿線の想い出 ペッタン・ポン デジタルスタンプラリー\n\n開催期間：2026年7月18日(土)～10月12日（月・祝）\nスタンプ取得時間：初電～終電\nコンプリート賞：京王6000系オリジナルアクリルスタンド（先着3,000名）\n引換場所：京王多摩センター駅 改札窓口（9:00～21:00）\n\nあわせて読みたい\n\nGoogleで多摩ポンの記事を優先表示させる",
+    "venue": null,
+    "organizer": "（多摩ポン記事）",
+    "time_label": null,
+    "is_kitchen_car": false,
+    "first_seen": "2026-07-10T22:10:59Z",
+    "last_seen": "2026-07-10T22:10:59Z",
+    "archived": false
+  },
+  {
+    "id": "tamapon-kazenomoribazaarvol2",
+    "source": "tamapon.com",
+    "url": "https://tamapon.com/2026/07/06/kazenomoribazaarvol2/",
+    "title": "多摩市「風の森バザール」第2回が7月18日(土)から開催！夜市＆朝市で諏訪がにぎわう2026.07.06",
+    "date_label": "2026年7月18日(土)15:00～21:00（夜市）、7月19日(日)8:00～14:00（朝市）",
+    "date_start": "2026-07-18",
+    "date_end": null,
+    "status": "開催予定",
+    "tags": [
+      "まちなか"
+    ],
+    "category_primary": "まちなか",
+    "genres": [
+      "kitchen_car",
+      "family",
+      "culture"
+    ],
+    "hashtags": [
+      "#聖蹟桜ヶ丘"
+    ],
+    "image_url": "https://tamapon.com/wp-content/uploads/2026/07/main-2-485x685.jpeg",
+    "image_local": null,
+    "body": "多摩市諏訪の諏訪第七公園と諏訪名店街で、地域のお祭り「風の森バザール Vol.2」が2026年7月18日(土)・19日(日)に開催されます。\n\n今年2月に初開催\nされ、4,000人を超える来場者でにぎわった「風の森バザール」。今回は夏開催となり、18日(土)は「夜市（アイリッシュナイト）」、19日(日)は「朝市」の2日間にわたって開催されます。\n\n音楽やグルメを楽しみながら、多摩ニュータウンの新たな魅力に触れられるイベントです。\nSPONSORED LINK\n\n多摩ニュータウンから音楽と食でつながるバザール\n\n風の森バザールは、諏訪名店街にある「\nカフェ＆バル 風とキャラバン\n」のオーナーで、国内外で活躍する尺八奏者・神永大輔さんを中心に企画されたイベントです。\n\n会場には、多摩地域を中心に活動する個性的なお店やクリエイターなど多摩地域を中心に個性豊かな出店者が集まります。\n\n地元グルメや焼き菓子、蒸しパンなどが並び、音楽とともにゆったりとした時間を楽しめます。\n\n18日(土)は夕涼みを楽しむ「夜市」\n\n7月18日(土)は、15時から21時まで開催。\n\n市内の子どもたちによるダンスチーム「VARIOUS COLORS」のパフォーマンスをはじめ、神永大輔さんプロデュースによるアイリッシュ音楽セッションを開催します。\n\n演奏を聴くだけでなく、その場で楽器を持って参加したり、踊ったりと、誰でも楽しめる参加型イベントです。\n\n17時から18時30分までは、初心者でも参加できるケルト音楽をみんなで演奏したり踊ったりできる参加型の「アイリッシュ音楽セッション」を開催予定。\n\nさらに18時30分からは、多摩ニュータウン出身の奥山樹生さんと劇団「かるがも団地」による音楽劇も上演。「諏訪・永山」を舞台に半世紀にわたる多摩ニュータウンの歴史や、人々のぬくもりを描く音楽劇です。\n\n19日(日)は朝市！ポニーやヒーローも登場\n\n翌19日(日)は、8時から14時まで朝市を開催。\n\nベリーダンスショーや15歳のシンガーソングライター・Yuzukiさんのライブ、創作芸能集団「古今樂明座」のステージが予定されています。\n\nまた、「多摩ニュータウンマン」や「紅蓮覇王アルス」といったヒーローも登場。\n\nさらに、しゃべりっちょ牧場によるポニーとのふれあい体験（19日のみ）や、永山のシンボルキャラクター「永どん」も両日参加し、子どもから大人まで楽しめる内容となっています。\n\n約20店舗が出店！諏訪名店街のお店も営業\n\n会場には、\n\n風とキャラバン\n\n多摩南生活クラブ生活協同組合まち多摩\n\n私のむしパン\n\n多摩大学附属聖ヶ丘高校\n\nなど約20店舗が出店予定です。\n\nまた、諏訪名店街ではナチュラルワインやカフェ、図書館、セレクトショップを併設する「\nmodoki（モドキ）\n」や、英国風カフェ「\nPUDDLEBY（パドルビー）\n」も営業予定です。\n\n音楽を聴きながら、多摩地域の食材を使ったグルメや買い物を楽しめる2日間となりそうです。\n\n「風の森バザール Vol.2」開催概要\n\n開催日：2026年7月18日(土)15:00～21:00（夜市）、7月19日(日)8:00～14:00（朝市）\n※企画によって開催時間が異なります。\n会場：諏訪第七公園・諏訪名店街（多摩市諏訪5丁目）\nアクセス：京王・小田急永山駅から徒歩約18分、またはバス約5分\n入場：無料\n※来場者用駐車場はありません。公共交通機関をご利用ください。\n※荒天時は縮小・中止となる場合があります。開催可否は7月16日（木）18時ごろに発表予定です。\nイベントの詳細や会場マップは、\n風の森バザール公式Instagram\nで確認できます。\n\nあわせて読みたい\n\nGoogleで多摩ポンの記事を優先表示させる",
+    "venue": "諏訪第七公園・諏訪名店街（多摩市諏訪5丁目）",
+    "organizer": "（多摩ポン記事）",
+    "time_label": "2026年7月18日(土)15:00～21:00（夜市）、7月19日(日)8:00～14:00（朝市）",
+    "is_kitchen_car": false,
+    "first_seen": "2026-07-10T22:11:04Z",
+    "last_seen": "2026-07-10T22:11:04Z",
     "archived": false
   },
   {
@@ -553,7 +675,7 @@
     "date_label": "",
     "date_start": "2026-07-10",
     "date_end": null,
-    "status": "開催予定",
+    "status": "開催中",
     "tags": [
       "まちなか"
     ],
@@ -564,13 +686,73 @@
     ],
     "image_url": "https://tamapon.com/wp-content/uploads/wordpress-popular-posts/73136-featured-75x75.jpg",
     "image_local": null,
-    "body": "BS-TBSで毎週金曜放送中のグルメバラエティ「サンド伊達のコロッケあがってます」で、2026年7月10日(金)放送回の舞台が「多摩市」になることが分かりました。\n\n番組では、サンリオ好きで知られるティモンディ・前田裕太さんによる「サンリオ満喫ツアー」も放送予定。さらに、多摩市の人気コロッケ店も登場するものとみられ、注目を集まります。\n\n※今回の情報は「多摩ポン」読者の方からいただきました。ありがとうございます！\nSPONSORED LINK\n\n「サンド伊達のコロッケあがってます」が多摩市へ\n\nBS-TBSの公式YouTube\nに番組予告動画がアップされていました。\n\nBS-TBS「サンド伊達のコロッケあがってます」は、お笑いコンビ・サンドウィッチマンの伊達みきおさんと、お笑いコンビ「わらふぢなるお」の口笛なるおさんが街を歩きながら、各地の絶品コロッケを味わうグルメバラエティ番組です。\n\n「サンド伊達のコロッケあがってます」7/10(金)は多摩市へ…もちもちパン×特大コロッケの豪快人気メニュー／ガチ勢ティモンディ前田が教える！サンリオ満喫ツアー\n7/10(金)よる10時は…コロッケ仲間にティモンディを迎え、東京都・多摩市の絶品コロッケをいただきまーす！\n◇人気ジブリ名作の舞台と言われる街をぶらり旅\n◇超ガチ勢ティモンディ前田が教える！サンリオ満喫ツアー\n◇日本一周中に想起！もちもちパン×特大コロッケの豪快すぎる人気看板メニュー\n◇遠方からも客足が絶えない！町の人気精肉店\n\n今回のコロッケ仲間（ゲスト）はお笑いコンビの「ティモンディ」のおふたり。\n\n予告動画ではサンリオピューロランドも登場する予定で、サンリオ好きとして知られるティモンディ・前田裕太さんによる「サンリオ満喫ツアー」の様子もみられます。番組内でどんな楽しみ方を紹介するのかにも注目です。\n\nまた、「人気ジブリ作品の舞台と言われる街（おそらく聖蹟桜ヶ丘）」を散策するほか、「遠方からも客足が絶えない町の人気精肉店」も登場予定。揚げたてのコロッケに加え、「もちもちパン×特大コロッケの豪快すぎる人気看板メニュー」が、どのお店で登場するのかも気になるところです。\n\n©BS-TBS\n© 2026 SANRIO CO., LTD. 著作 株式会社サンリオ\n\n「サンド伊達のコロッケあがってます」\n\n放送日時：2026年7月10日(金)22:00～\n放送局：BS-TBS\nサンド伊達のコロッケあがってます｜BS-TBS（公式サイト）\n\nあわせて読みたい\n\nGoogleで多摩ポンの記事を優先表示させる",
+    "body": "BS-TBSで毎週金曜放送中のグルメバラエティ「サンド伊達のコロッケあがってます」で、2026年7月10日(金)放送回の舞台が「多摩市」になることが分かりました。\n\n番組では、サンリオ好きで知られるティモンディ・前田裕太さんによる「サンリオ満喫ツアー」も放送予定。さらに、多摩市の人気コロッケ店も登場するものとみられ、注目を集まります。\n\n※今回の情報は「多摩ポン」読者の方からいただきました。ありがとうございます！\nSPONSORED LINK\n\n「サンド伊達のコロッケあがってます」が多摩市へ\n\nBS-TBSの公式YouTube\nに番組予告動画がアップされていました。\n\nBS-TBS「サンド伊達のコロッケあがってます」は、お笑いコンビ・サンドウィッチマンの伊達みきおさんと、お笑いコンビ「わらふぢなるお」の口笛なるおさんが街を歩きながら、各地の絶品コロッケを味わうグルメバラエティ番組です。\n\n「サンド伊達のコロッケあがってます」7/10(金)は多摩市へ…もちもちパン×特大コロッケの豪快人気メニュー／ガチ勢ティモンディ前田が教える！サンリオ満喫ツアー\n7/10(金)よる10時は…コロッケ仲間にティモンディを迎え、東京都・多摩市の絶品コロッケをいただきまーす！\n◇人気ジブリ名作の舞台と言われる街をぶらり旅\n◇超ガチ勢ティモンディ前田が教える！サンリオ満喫ツアー\n◇日本一周中に想起！もちもちパン×特大コロッケの豪快すぎる人気看板メニュー\n◇遠方からも客足が絶えない！町の人気精肉店\n\n今回のコロッケ仲間（ゲスト）はお笑いコンビの「ティモンディ」のおふたり。\n\n予告動画ではサンリオピューロランドも登場する予定で、サンリオ好きとして知られるティモンディ・前田裕太さんによる「サンリオ満喫ツアー」の様子もみられます。番組内でどんな楽しみ方を紹介するのかにも注目です。\n\nまた、「人気ジブリ作品の舞台と言われる街（おそらく聖蹟桜ヶ丘）」を散策するほか、「遠方からも客足が絶えない町の人気精肉店」も登場予定。揚げたてのコロッケに加え、「もちもちパン×特大コロッケの豪快すぎる人気看板メニュー」が、どのお店で登場するのかも気になるところです。\n\n追記：「肉の鈴政」と「apricot」が登場！\n\n公式サイトが更新されました。桜ケ丘ロータリーの精肉店「肉の鈴政」さんと、南野のコッペパン専門店「\napricot\n」さんのコロッケが登場する模様です。\n\n#58　東京都　多摩市\n2026年7月10日（金）放送\n\nコロッケ仲間のティモンディと人気ジブリ名作の舞台と言われる街で絶品コロッケをいただきまーす！\n\nまず訪れたのは、「肉の鈴政」\n遠方からも客足が絶えない！町の人気精肉店。\n\n途中、サンリオピューロランドにも立ち寄り、超ガチ勢ティモンディ前田が教える満喫ツアー！\n\n最後に訪れたのは、「apricot」\nもちもちパン×特大コロッケの豪快すぎる人気看板メニュー。（公式サイトより）\n\n©BS-TBS\n© 2026 SANRIO CO., LTD. 著作 株式会社サンリオ\n\n「サンド伊達のコロッケあがってます」\n\n放送日時：2026年7月10日(金)22:00～\n放送局：BS-TBS\nサンド伊達のコロッケあがってます｜BS-TBS（公式サイト）\n\nあわせて読みたい\n\nGoogleで多摩ポンの記事を優先表示させる",
     "venue": null,
     "organizer": "（多摩ポン記事）",
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-07-05T22:10:15Z",
-    "last_seen": "2026-07-05T22:10:15Z",
+    "last_seen": "2026-07-10T22:11:15Z",
+    "archived": false
+  },
+  {
+    "id": "keiosc-000717",
+    "source": "keio-sc.jp",
+    "url": "https://www.keio-sc.jp/eventtopics/detail/?cd=000717",
+    "title": "夏のキッズお絵描き展示",
+    "date_label": "7月10日（金）～7月28日（火）",
+    "date_start": "2026-07-10",
+    "date_end": "2026-07-28",
+    "status": "開催中",
+    "tags": [
+      "ショッピングセンター"
+    ],
+    "category_primary": "ショッピングセンター",
+    "genres": [
+      "family"
+    ],
+    "hashtags": [
+      "#せいせきSC",
+      "#聖蹟桜ヶ丘"
+    ],
+    "image_url": "https://www.keio-sc.jp/uploads/images/resized/316x152/seiseki/000002/000002/a9d16414.jpg",
+    "image_local": null,
+    "body": "EVENT\n\n夏のキッズお絵描き展示\n\n夏のキッズお絵描き展示\n\n🐬近隣の幼稚園・保育園の園児たちの夏をテーマにしたかわいいお絵描きを展示します！\n\nぜひ、ご覧ください\n\n【参加園】\n\nみどりの保育園\n\n帝京大学幼稚園\n\n杉野幼稚園\n\n日野わかくさ幼稚園\n\nあすのき保育園\n\nプラスキッズみらい保育園\n\n期間\n7月10日（金）～7月28日（火）\n\n場所\nAB館7階連絡ブリッジ\n\nTOP\n\nイベント&トピックス\n\n夏のキッズお絵描き展示\n\nホーム\nフロアガイド\nグルメ\nイベント＆トピックス\nショップニュース\n施設案内\nアクセス＆駐車場\n\nフロアガイド\nグルメ\nイベント＆トピックス\nショップニュース\n施設案内\nアクセス＆駐車場\n\nフロアガイド\n\nグルメ\n\nイベント＆トピックス\n\nショップニュース\n\n施設案内\n\nアクセス＆駐車場",
+    "venue": "AB館7階連絡ブリッジ",
+    "organizer": null,
+    "time_label": null,
+    "is_kitchen_car": false,
+    "first_seen": "2026-07-10T22:10:13Z",
+    "last_seen": "2026-07-10T22:10:13Z",
+    "archived": false
+  },
+  {
+    "id": "sqsc-5%e4%ba%ba%e7%b5%84%e3%82%a2%e3%83%bc%e3%83%86%e3%82%a3%e3%82%b9%e3%83%88tomorrowxtogether%e3%81%a8%e3%81%ae%e3%82%b3%e3%83%a9%e3%83%9c%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%82%92",
+    "source": "square-sc.com",
+    "url": "https://square-sc.com/shopnews/5%e4%ba%ba%e7%b5%84%e3%82%a2%e3%83%bc%e3%83%86%e3%82%a3%e3%82%b9%e3%83%88tomorrowxtogether%e3%81%a8%e3%81%ae%e3%82%b3%e3%83%a9%e3%83%9c%e3%83%ac%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%82%92/",
+    "title": "1Fタリーズコーヒー",
+    "date_label": "ts-tan",
+    "date_start": "2026-07-08",
+    "date_end": null,
+    "status": "終了",
+    "tags": [
+      "ショッピングセンター"
+    ],
+    "category_primary": "ショッピングセンター",
+    "genres": [],
+    "hashtags": [
+      "#せいせきSC",
+      "#聖蹟桜ヶ丘"
+    ],
+    "image_url": "https://square-sc.com/wp-content/uploads/2018/11/banner-sekidolibrary.jpg",
+    "image_local": null,
+    "body": "タリーズコーヒーでは7/8(水)より5人組アーティストTOMORROW × TOGETHERとの\nコラボレーションを実施！「TOMORROW × TOGETHER」という名に込められた希望とタリーズが提供するくつろぎの空間\nこだわりの商品が融合した日常に輝きを与えるカフェ体験をお楽しみいただけます。\nぜひこの機会にタリーズが紡ぎ続けるコーヒー文化と韓国トレンドを取り入れて織りなす、\n特別なコラボレーションをお楽しみください。\n\n1Fタリーズコーヒー",
+    "venue": "1Fタリーズコーヒー",
+    "organizer": "ザ・スクエア聖蹟桜ヶ丘",
+    "time_label": null,
+    "is_kitchen_car": false,
+    "first_seen": "2026-07-10T22:10:32Z",
+    "last_seen": "2026-07-10T22:10:32Z",
     "archived": false
   },
   {
@@ -759,7 +941,7 @@
     "date_label": "2026年7月4日(土)〜5日(日)",
     "date_start": "2026-07-04",
     "date_end": "2026-07-05",
-    "status": "開催中",
+    "status": "終了",
     "tags": [
       "まちなか"
     ],
@@ -778,7 +960,7 @@
     "time_label": "2026年7月4日(土)〜5日(日)",
     "is_kitchen_car": false,
     "first_seen": "2026-06-28T22:08:56Z",
-    "last_seen": "2026-07-05T22:10:01Z",
+    "last_seen": "2026-07-10T22:11:09Z",
     "archived": false
   },
   {
@@ -896,7 +1078,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-06-28T22:08:14Z",
-    "last_seen": "2026-07-07T22:17:48Z",
+    "last_seen": "2026-07-10T22:10:18Z",
     "archived": false
   },
   {
@@ -925,7 +1107,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-06-28T22:08:14Z",
-    "last_seen": "2026-07-07T22:17:48Z",
+    "last_seen": "2026-07-10T22:10:18Z",
     "archived": false
   },
   {
@@ -958,7 +1140,7 @@
     "time_label": "2026年7月1日（水）",
     "is_kitchen_car": false,
     "first_seen": "2026-06-28T22:08:55Z",
-    "last_seen": "2026-07-05T22:09:59Z",
+    "last_seen": "2026-07-10T22:11:08Z",
     "archived": false
   },
   {
@@ -1074,7 +1256,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-06-19T22:11:52Z",
-    "last_seen": "2026-07-07T22:17:41Z",
+    "last_seen": "2026-07-10T22:10:09Z",
     "archived": false
   },
   {
@@ -1191,7 +1373,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-06-19T22:12:45Z",
-    "last_seen": "2026-07-05T22:10:04Z",
+    "last_seen": "2026-07-10T22:11:13Z",
     "archived": false
   },
   {
@@ -1249,7 +1431,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-06-12T22:31:29Z",
-    "last_seen": "2026-07-07T22:17:48Z",
+    "last_seen": "2026-07-10T22:10:18Z",
     "archived": false
   },
   {
@@ -1278,7 +1460,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-06-16T22:54:45Z",
-    "last_seen": "2026-07-07T22:17:42Z",
+    "last_seen": "2026-07-10T22:10:10Z",
     "archived": false
   },
   {
@@ -1307,7 +1489,7 @@
     "time_label": "2026年6月14日(日)14:00〜15:00予定",
     "is_kitchen_car": false,
     "first_seen": "2026-05-15T22:06:55Z",
-    "last_seen": "2026-07-05T22:10:29Z",
+    "last_seen": "2026-07-10T22:11:36Z",
     "archived": false
   },
   {
@@ -1335,7 +1517,7 @@
     "time_label": "6月14日(日)14:00～15:30",
     "is_kitchen_car": false,
     "first_seen": "2026-05-29T22:43:30Z",
-    "last_seen": "2026-07-05T22:10:08Z",
+    "last_seen": "2026-07-10T22:11:25Z",
     "archived": false
   },
   {
@@ -1510,7 +1692,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-22T22:15:21Z",
-    "last_seen": "2026-07-07T22:17:48Z",
+    "last_seen": "2026-07-10T22:10:18Z",
     "archived": false
   },
   {
@@ -2101,7 +2283,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-19T22:22:56Z",
-    "last_seen": "2026-07-07T22:17:44Z",
+    "last_seen": "2026-07-10T22:10:11Z",
     "archived": false
   },
   {
@@ -3223,7 +3405,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-07-07T22:19:34Z",
+    "last_seen": "2026-07-10T22:11:36Z",
     "archived": false
   },
   {
@@ -3347,7 +3529,7 @@
     "time_label": "2026年4月4日(土) 13:30&#12316;16:00 (開場13時)\n参加費：1,000円 (資料代) 要申込\n定員：先着200名 (未成年者無料)",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:55Z",
-    "last_seen": "2026-07-07T22:17:53Z",
+    "last_seen": "2026-07-10T22:10:22Z",
     "archived": false
   },
   {
@@ -3375,7 +3557,7 @@
     "time_label": "2026年4月4日（土）13時30分〜16時（開場13時）",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:57Z",
-    "last_seen": "2026-07-07T22:17:55Z",
+    "last_seen": "2026-07-10T22:10:24Z",
     "archived": false
   },
   {
@@ -3684,7 +3866,7 @@
     "time_label": "2026年2月22日（日）\n開場　12：30　開演　13：00　終演予定15：30\n定員：２００名（先着順）　無料",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:56Z",
-    "last_seen": "2026-07-07T22:17:54Z",
+    "last_seen": "2026-07-10T22:10:23Z",
     "archived": false
   },
   {
@@ -3776,7 +3958,7 @@
     "time_label": "2026年2月15日（日曜日）\n開場：13：30　開演14：00（閉演15：30）",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:59Z",
-    "last_seen": "2026-07-07T22:17:57Z",
+    "last_seen": "2026-07-10T22:10:26Z",
     "archived": false
   },
   {
@@ -3893,7 +4075,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-07-07T22:19:34Z",
+    "last_seen": "2026-07-10T22:11:36Z",
     "archived": false
   },
   {
@@ -4011,7 +4193,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-07-07T22:19:34Z",
+    "last_seen": "2026-07-10T22:11:36Z",
     "archived": false
   },
   {
@@ -4039,7 +4221,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-07-07T22:19:34Z",
+    "last_seen": "2026-07-10T22:11:36Z",
     "archived": false
   },
   {
@@ -4255,7 +4437,7 @@
     "time_label": "2025年12月1日（月）〜12月22日（月）",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:59:00Z",
-    "last_seen": "2026-07-07T22:17:59Z",
+    "last_seen": "2026-07-10T22:10:27Z",
     "archived": false
   },
   {
@@ -4758,7 +4940,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-07-07T22:19:34Z",
+    "last_seen": "2026-07-10T22:11:36Z",
     "archived": false
   },
   {
@@ -4786,7 +4968,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-07-07T22:19:34Z",
+    "last_seen": "2026-07-10T22:11:36Z",
     "archived": false
   },
   {
@@ -4816,7 +4998,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-07-07T22:19:34Z",
+    "last_seen": "2026-07-10T22:11:36Z",
     "archived": false
   },
   {
@@ -4844,7 +5026,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-07-07T22:19:34Z",
+    "last_seen": "2026-07-10T22:11:36Z",
     "archived": false
   },
   {
@@ -4872,7 +5054,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-07-07T22:19:34Z",
+    "last_seen": "2026-07-10T22:11:36Z",
     "archived": false
   },
   {
@@ -5578,7 +5760,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-07-07T22:19:34Z",
+    "last_seen": "2026-07-10T22:11:36Z",
     "archived": false
   },
   {
@@ -5975,7 +6157,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-07-07T22:19:34Z",
+    "last_seen": "2026-07-10T22:11:36Z",
     "archived": false
   },
   {
@@ -6097,7 +6279,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-07-07T22:19:34Z",
+    "last_seen": "2026-07-10T22:11:36Z",
     "archived": false
   },
   {
@@ -6125,7 +6307,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-07-07T22:19:34Z",
+    "last_seen": "2026-07-10T22:11:36Z",
     "archived": false
   },
   {
@@ -7208,7 +7390,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:59:23Z",
-    "last_seen": "2026-07-05T22:09:42Z",
+    "last_seen": "2026-07-10T22:10:39Z",
     "archived": false
   },
   {
@@ -7265,7 +7447,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:52Z",
-    "last_seen": "2026-07-07T22:17:48Z",
+    "last_seen": "2026-07-10T22:10:18Z",
     "archived": false
   },
   {
@@ -7750,7 +7932,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:52Z",
-    "last_seen": "2026-07-07T22:17:48Z",
+    "last_seen": "2026-07-10T22:10:18Z",
     "archived": false
   },
   {
@@ -7779,7 +7961,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:52Z",
-    "last_seen": "2026-07-07T22:17:48Z",
+    "last_seen": "2026-07-10T22:10:18Z",
     "archived": false
   },
   {
@@ -7808,7 +7990,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:52Z",
-    "last_seen": "2026-07-07T22:17:48Z",
+    "last_seen": "2026-07-10T22:10:18Z",
     "archived": false
   },
   {
@@ -7837,7 +8019,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:52Z",
-    "last_seen": "2026-07-07T22:17:48Z",
+    "last_seen": "2026-07-10T22:10:18Z",
     "archived": false
   },
   {
@@ -7866,7 +8048,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:52Z",
-    "last_seen": "2026-07-07T22:17:48Z",
+    "last_seen": "2026-07-10T22:10:18Z",
     "archived": false
   },
   {
@@ -7895,7 +8077,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:52Z",
-    "last_seen": "2026-07-07T22:17:48Z",
+    "last_seen": "2026-07-10T22:10:18Z",
     "archived": false
   },
   {
@@ -7924,14 +8106,14 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:52Z",
-    "last_seen": "2026-07-07T22:17:48Z",
+    "last_seen": "2026-07-10T22:10:18Z",
     "archived": false
   },
   {
     "id": "keionet-005639",
     "source": "keionet.com",
     "url": "https://www.keionet.com/info/seisekisakuragaoka/topics/005639.html",
-    "title": "せいせき Fashion Topics　～梅雨を快適に乗り切るレインアイテム～",
+    "title": "せいせき Fashion Topics　～夏本番に向けた 涼やか＆UV対策アイテム～",
     "date_label": "",
     "date_start": null,
     "date_end": null,
@@ -7945,7 +8127,7 @@
       "#せいせきSC",
       "#聖蹟桜ヶ丘"
     ],
-    "image_url": "https://www.keionet.com/info/seisekisakuragaoka/topics/cms_img/22d41bc4f9b57566bc58c2862c072cf216897818.png",
+    "image_url": "https://www.keionet.com/info/seisekisakuragaoka/topics/cms_img/66d273cc5d0231e23ba50b0aa726a08c1f172ff3.jpg",
     "image_local": null,
     "body": "",
     "venue": null,
@@ -7953,7 +8135,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:52Z",
-    "last_seen": "2026-07-07T22:17:48Z",
+    "last_seen": "2026-07-10T22:10:18Z",
     "archived": false
   },
   {
@@ -8011,7 +8193,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:52Z",
-    "last_seen": "2026-07-07T22:17:48Z",
+    "last_seen": "2026-07-10T22:10:18Z",
     "archived": false
   },
   {
@@ -8040,7 +8222,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:52Z",
-    "last_seen": "2026-07-07T22:17:48Z",
+    "last_seen": "2026-07-10T22:10:18Z",
     "archived": false
   },
   {
@@ -8069,7 +8251,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:52Z",
-    "last_seen": "2026-07-07T22:17:48Z",
+    "last_seen": "2026-07-10T22:10:18Z",
     "archived": false
   },
   {
@@ -8098,7 +8280,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:52Z",
-    "last_seen": "2026-07-07T22:17:48Z",
+    "last_seen": "2026-07-10T22:10:18Z",
     "archived": false
   },
   {
@@ -8127,7 +8309,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:52Z",
-    "last_seen": "2026-07-07T22:17:48Z",
+    "last_seen": "2026-07-10T22:10:18Z",
     "archived": false
   },
   {
@@ -8162,7 +8344,7 @@
     "time_label": "４月5日（日）　10：00〜17：00（雨天一部決行）\nスタンプラリー　ゴール＆抽選：12:30〜16:00（観蔵院境内にて）\nスタンプラリーシートの配布（カワマチ）は10：00〜14：00",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:54Z",
-    "last_seen": "2026-07-07T22:17:52Z",
+    "last_seen": "2026-07-10T22:10:20Z",
     "archived": false
   },
   {
@@ -8190,7 +8372,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:58Z",
-    "last_seen": "2026-07-07T22:17:56Z",
+    "last_seen": "2026-07-10T22:10:25Z",
     "archived": false
   },
   {
@@ -8387,7 +8569,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:59:17Z",
-    "last_seen": "2026-07-05T22:09:35Z",
+    "last_seen": "2026-07-10T22:10:33Z",
     "archived": false
   },
   {
@@ -8416,7 +8598,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:59:18Z",
-    "last_seen": "2026-07-05T22:09:36Z",
+    "last_seen": "2026-07-10T22:10:34Z",
     "archived": false
   },
   {
@@ -8445,7 +8627,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:59:19Z",
-    "last_seen": "2026-07-05T22:09:37Z",
+    "last_seen": "2026-07-10T22:10:35Z",
     "archived": false
   },
   {
@@ -8476,7 +8658,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:59:20Z",
-    "last_seen": "2026-07-05T22:09:38Z",
+    "last_seen": "2026-07-10T22:10:36Z",
     "archived": false
   },
   {
@@ -8505,7 +8687,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:59:21Z",
-    "last_seen": "2026-07-05T22:09:40Z",
+    "last_seen": "2026-07-10T22:10:38Z",
     "archived": false
   },
   {
@@ -8534,7 +8716,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:59:24Z",
-    "last_seen": "2026-07-05T22:09:43Z",
+    "last_seen": "2026-07-10T22:10:40Z",
     "archived": false
   },
   {
@@ -8563,7 +8745,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:59:25Z",
-    "last_seen": "2026-07-05T22:09:44Z",
+    "last_seen": "2026-07-10T22:10:41Z",
     "archived": false
   },
   {
@@ -8592,7 +8774,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:59:26Z",
-    "last_seen": "2026-07-05T22:09:46Z",
+    "last_seen": "2026-07-10T22:10:42Z",
     "archived": false
   },
   {
@@ -8765,7 +8947,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-15T22:06:11Z",
-    "last_seen": "2026-07-07T22:17:48Z",
+    "last_seen": "2026-07-10T22:10:18Z",
     "archived": false
   },
   {
@@ -8967,7 +9149,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-31T22:07:13Z",
-    "last_seen": "2026-07-07T22:17:48Z",
+    "last_seen": "2026-07-10T22:10:18Z",
     "archived": false
   },
   {
@@ -9145,7 +9327,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-06-23T22:22:01Z",
-    "last_seen": "2026-07-07T22:19:03Z",
+    "last_seen": "2026-07-10T22:10:47Z",
     "archived": false
   },
   {
@@ -9174,7 +9356,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-06-26T22:18:17Z",
-    "last_seen": "2026-07-07T22:17:48Z",
+    "last_seen": "2026-07-10T22:10:18Z",
     "archived": false
   },
   {
@@ -9205,7 +9387,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-06-28T22:08:14Z",
-    "last_seen": "2026-07-07T22:17:48Z",
+    "last_seen": "2026-07-10T22:10:18Z",
     "archived": false
   },
   {
@@ -9236,7 +9418,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-07-05T22:09:48Z",
-    "last_seen": "2026-07-07T22:19:02Z",
+    "last_seen": "2026-07-10T22:10:46Z",
     "archived": false
   }
 ]
