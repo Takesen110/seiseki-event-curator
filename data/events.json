@@ -24,7 +24,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-08-11T21:59:03Z",
+    "last_seen": "2026-08-14T21:34:07Z",
     "archived": false
   },
   {
@@ -52,7 +52,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-08-11T21:59:03Z",
+    "last_seen": "2026-08-14T21:34:07Z",
     "archived": false
   },
   {
@@ -82,7 +82,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-08-11T21:59:03Z",
+    "last_seen": "2026-08-14T21:34:07Z",
     "archived": false
   },
   {
@@ -110,7 +110,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-08-11T21:59:03Z",
+    "last_seen": "2026-08-14T21:34:07Z",
     "archived": false
   },
   {
@@ -138,7 +138,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-08-11T21:59:03Z",
+    "last_seen": "2026-08-14T21:34:07Z",
     "archived": false
   },
   {
@@ -166,7 +166,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-08-11T21:59:03Z",
+    "last_seen": "2026-08-14T21:34:07Z",
     "archived": false
   },
   {
@@ -194,7 +194,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-08-11T21:59:03Z",
+    "last_seen": "2026-08-14T21:34:07Z",
     "archived": false
   },
   {
@@ -222,7 +222,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-08-11T21:59:03Z",
+    "last_seen": "2026-08-14T21:34:07Z",
     "archived": false
   },
   {
@@ -250,7 +250,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-08-11T21:59:03Z",
+    "last_seen": "2026-08-14T21:34:07Z",
     "archived": false
   },
   {
@@ -279,7 +279,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-08-11T21:57:31Z",
-    "last_seen": "2026-08-11T21:57:31Z",
+    "last_seen": "2026-08-14T21:32:21Z",
     "archived": false
   },
   {
@@ -307,7 +307,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-08-11T21:59:03Z",
+    "last_seen": "2026-08-14T21:34:07Z",
     "archived": false
   },
   {
@@ -335,7 +335,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-08-11T21:59:03Z",
+    "last_seen": "2026-08-14T21:34:07Z",
     "archived": false
   },
   {
@@ -365,7 +365,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-08-11T21:59:03Z",
+    "last_seen": "2026-08-14T21:34:07Z",
     "archived": false
   },
   {
@@ -393,7 +393,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-08-11T21:59:03Z",
+    "last_seen": "2026-08-14T21:34:07Z",
     "archived": false
   },
   {
@@ -421,7 +421,36 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-08-11T21:59:03Z",
+    "last_seen": "2026-08-14T21:34:07Z",
+    "archived": false
+  },
+  {
+    "id": "keiosc-000728",
+    "source": "keio-sc.jp",
+    "url": "https://www.keio-sc.jp/eventtopics/detail/?cd=000728",
+    "title": "9月8日（火）全館休業のご案内",
+    "date_label": "9月8日（火）全館休業のご案内",
+    "date_start": "2026-09-08",
+    "date_end": null,
+    "status": "開催予定",
+    "tags": [
+      "ショッピングセンター"
+    ],
+    "category_primary": "ショッピングセンター",
+    "genres": [],
+    "hashtags": [
+      "#せいせきSC",
+      "#聖蹟桜ヶ丘"
+    ],
+    "image_url": "https://www.keio-sc.jp/uploads/images/resized/316x152/seiseki/000002/000002/a9d16414.jpg",
+    "image_local": null,
+    "body": "TOPICS\n\n9月8日（火）全館休業のご案内\n\n9月8日（火）全館休業のご案内\n\n平素より京王聖蹟桜ヶ丘ショッピングセンターをご利用いただきましてありがとうございます。\n\n誠に勝手ながら、9月8日（火）は休館日とさせていただきます。\n\n何卒ご理解賜りますようよろしくお願いいたします。\n\nTOP\n\nイベント&トピックス\n\n9月8日（火）全館休業のご案内\n\nホーム\nフロアガイド\nグルメ\nイベント＆トピックス\nショップニュース\n施設案内\nアクセス＆駐車場\n\nフロアガイド\nグルメ\nイベント＆トピックス\nショップニュース\n施設案内\nアクセス＆駐車場\n\nフロアガイド\n\nグルメ\n\nイベント＆トピックス\n\nショップニュース\n\n施設案内\n\nアクセス＆駐車場",
+    "venue": null,
+    "organizer": null,
+    "time_label": null,
+    "is_kitchen_car": false,
+    "first_seen": "2026-08-14T21:32:20Z",
+    "last_seen": "2026-08-14T21:32:20Z",
     "archived": false
   },
   {
@@ -447,13 +476,13 @@
     ],
     "image_url": "https://seiseki.org/seisekiareamanagement/wp-content/uploads/2026/08/【最終版】バナー告知-1600x2000.jpeg",
     "image_local": null,
-    "body": "「東京ヴェルディ パブリックビューイング in せいせきカワマチ2026」を開催します！\n\n当日は、元東京ヴェルディ・杉本竜士さんによる試合解説と、まさひろさんによる実況付き。\nサッカーをよく知る方はもちろん、初めて観戦する方やお子さまも楽しめるイベントです。\n\nさらに、会場には東京ヴェルディ公式ビール他、グルメが楽しめるキッチンカー等も集結！\n\n応援の熱気とおいしい食事で、最高の週末を過ごしましょう。\n\n豪華景品が当たる抽選会も開催します！\nその他コンテンツは続報をお待ちください。\n\n【開催概要】\n■日時\n｜2026年9月6日（日）16:00～21:00（19:00キックオフ）\n■場所\n｜せいせきカワマチ（多摩川河川敷芝生広場）\n■試合\n｜2026/27明治安田J1リーグ第6節　セレッソ大阪 vs 東京ヴェルディ\n■無料エリア\n｜\n・定員｜なし\n※参加者多数の場合、場所により映像が見えにくい場合があります\n※イス・レジャーシートの持ち込みがオススメです\n■有料エリア（要申込）\n｜\n専用席での観戦+会場のキッチンカー等でフード・ドリンクに使用できる500クーポン\n・定員｜65名\n・料金｜1,000円\n・申込期間｜8/14（金）12:00～8/28（金）23:59\n・申込は\nこちら\n■主催\n｜一般社団法人聖蹟桜ヶ丘エリアマネジメント・多摩市\n■特別協力\n｜東京ヴェルディ株式会社\n■協力\n｜くさび株式会社・トヨタS&D西東京株式会社・トヨタS&Dフリート西東京株式会社・トヨタS&Dレンタシェア西東京株式会社・京王聖蹟桜ヶ丘ショッピングセンター・VITA MALL SEISEKI・ザ・スクエアSC\n■備考\n｜雨天・荒天の場合は、お申込の際に【晴天＋雨天開催時参加可能】でお申込いただいた25名のみ、タトネ tatonner（多摩市関戸4-4-2）でのパブリックビューイングに参加可能となります。\n\n※夜の時間帯を活かしたイベントのため通常のせいせきカワマチの利用時間を延長して実施いたします。\n\nイベントに関する最新情報は一般社団法人聖蹟桜ヶ丘エリアマネジメントの\nInstagram\n、\nFacebook\nアカウントにて発信しています。\n\n河川敷芝生広場・キッチンカースペースの利用に関しては\nこちら\nをご確認ください。",
+    "body": "「東京ヴェルディ パブリックビューイング in せいせきカワマチ2026」を開催します！\n\n当日は、元東京ヴェルディ・杉本竜士さんによる試合解説と、まさひろさんによる実況付き。\nサッカーをよく知る方はもちろん、初めて観戦する方やお子さまも楽しめるイベントです。\n専用席（イス・レジャーシート）でゆったり観戦できる有料エリアもご用意します！\n\nさらに、試合前には東京ヴェルディユース所属選手&コーチと一緒にせいせきカワマチの清掃活動とサッカーで交流を深める「せいせきカワマチクリーン活動&サッカー交流会」（要申込）や豪華景品が当たる抽選会も開催！\n\nその他にも、会場には東京ヴェルディ公式ビール他、グルメが楽しめるキッチンカーや誰もが安心して遊べるインクルーシブ遊具、的を狙ってサッカーボールを蹴るキックターゲットを展開します！\n\n応援の熱気で、最高の週末を過ごしましょう。\n\n【開催概要】\n■日時\n｜2026年9月6日（日）16:00～21:00（19:00キックオフ）\n■場所\n｜せいせきカワマチ（多摩川河川敷芝生広場）\n■試合\n｜2026/27明治安田J1リーグ第6節　セレッソ大阪 vs 東京ヴェルディ\n■無料エリア\n｜\n・定員｜なし\n※参加者多数の場合、場所により映像が見えにくい場合があります\n※イス・レジャーシートの持ち込みがオススメです\n■有料エリア（要申込・抽選）\n｜\n専用席（イス・レジャーシート）での観戦+会場のキッチンカー等でフード・ドリンクに使用できる500円クーポン\n・定員｜65名\n・料金｜1,000円\n・申込期間｜8/14（金）12:00～8/28（金）23:59\n・申込は\nこちら\n■せいせきカワマチクリーン活動&サッカー交流会（要申込・抽選）｜\n・定員｜20名\n・料金｜無料\n・対象｜小学1年生～小学3年生\n・申込期間｜8/14（金）12:00～8/28（金）23:59\n・申込は\nこちら\n■\nスケジュール｜\n・16:00｜インクルーシブ遊具・キックターゲット\n・16:30｜せいせきカワマチクリーン活動&サッカー交流会\n・16:30｜フード&東京ヴェルディ公式ビール キッチンカー\n・17:50｜有料エリア開場（入場受付開始）\n・18:10｜見どころ&応援講座・抽選会\n・19:00｜キックオフ\n■主催\n｜一般社団法人聖蹟桜ヶ丘エリアマネジメント・多摩市\n■特別協力\n｜東京ヴェルディ株式会社\n■協力\n｜くさび株式会社・トヨタS&D西東京株式会社・トヨタS&Dフリート西東京株式会社・トヨタS&Dレンタシェア西東京株式会社・京王聖蹟桜ヶ丘ショッピングセンター・VITA MALL SEISEKI・ザ・スクエア SC\n■備考\n｜雨天開催の場合は、お申込の際に【晴天＋雨天開催時参加可能】でお申込いただいた25名のみ、タトネ tatonner（多摩市関戸4-4-2）でのパブリックビューイングに参加可能となります。\n\n※イベント内容は予告なく変更となる場合があります。\n※夜の時間帯を活かしたイベントのため通常のせいせきカワマチの利用時間を延長して実施いたします。\n\nイベントに関する最新情報は一般社団法人聖蹟桜ヶ丘エリアマネジメントの\nInstagram\n、\nFacebook\nアカウントにて発信しています。\n\n河川敷芝生広場・キッチンカースペースの利用に関しては\nこちら\nをご確認ください。",
     "venue": "｜せいせきカワマチ（多摩川河川敷芝生広場）",
     "organizer": "｜一般社団法人聖蹟桜ヶ丘エリアマネジメント・多摩市",
     "time_label": "｜2026年9月6日（日）16:00～21:00（19:00キックオフ）",
     "is_kitchen_car": false,
     "first_seen": "2026-08-11T21:54:06Z",
-    "last_seen": "2026-08-11T21:54:06Z",
+    "last_seen": "2026-08-14T21:29:01Z",
     "archived": false
   },
   {
@@ -482,7 +511,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:52Z",
-    "last_seen": "2026-08-11T21:57:33Z",
+    "last_seen": "2026-08-14T21:32:23Z",
     "archived": false
   },
   {
@@ -512,7 +541,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-07-28T22:09:21Z",
-    "last_seen": "2026-08-11T21:54:09Z",
+    "last_seen": "2026-08-14T21:29:05Z",
     "archived": false
   },
   {
@@ -538,13 +567,13 @@
     ],
     "image_url": "https://www.keio-sc.jp/uploads/images/resized/316x152/seiseki/000002/000002/a9d16414.jpg",
     "image_local": null,
-    "body": "EVENT\n\nせいせき史上初！Bon\"盆\"Disco 開催いたします！\n\nせいせき史上初！Bon\"盆\"Disco 開催いたします！\n\n✨せいせき史上初！BON\"盆\"Disco 開催✨\n\nせいせきでは、8月29日(土)～8月30日(日)でBON\"盆\"DiscoをA館6階アウラホールにて開催いたします！\n\n日本伝統の盆踊りからディスコダンスを子供からシニアまでお楽しみいただけます！\n\nご家族やお友達を誘って、ぜひ踊りに来てください♪ 皆さまのご参加をお待ちしております！\n\n夏の終わりにみんなでLet`s Dance\n✨\n\n［日時］\n\n2026年8月29日(土)～8月30日(日)\n\n一部：11：30～14：00\n\n二部：15：00～18：00\n\n11:00～ホワイエにてワークショップやディスコバー「フィーBar」、縁日を開催しております！\n\n［会場］\n\nA館6階アウラホール\n\n［BON\"盆\"Disco 出演者］\n\n29日\n：DJ KOU\nNO、G24 Dance Performance、一般社団法人日本盆踊り協会（両部参加）\n\n30日\n：DJ 栗原治久、ダンス平澤成基、一般社団法人日本盆踊り協会（両部参加）\n\n一部：武蔵一之宮・小野神社囃子連、clover 26\n\n二部：LOICX★チアダンススクール\n\n【BON\"盆\"Disco タイムテーブル】\n\nComing soon\n\n[ワークショップ　3世代で楽しめるディスコ＆盆ダンス扇子づくり]\n\nオリジナルのディスコグッズづくりを楽しめる！体験型ワークショップ！\n\n時間：11：00～17：00\n\n料金：800円～\n\n[ディスコマン変身レンタルコーナー]\n\nアフロヘアウィッグやサングラス、光るアクセサリー、ディスコ扇子などディスコファッションを楽しもう！\n\n時間：\n11:00～18:00\n※レンタルは無料。但し、貸し出し時に1,000 円の補償金をいただきます。\n\n[縁日]\n\nお子様も楽しめる縁日で、みんなでお祭り気分を味わおう！\n\n時間：11:00～18:00\n\n※当日の対象店舗でのお買い上げレシート1枚につき2回まで参加可能。\n\n※なくなり次第終了\n\n[ディスコバー「フィーBar」]\n\nディスコミュージックを楽しみながら、アルコール、ソフトドリンクをお楽しみいただけます！\n\n時間：11:00～18:00\n\n出店Bar：\n\n◆Bierernst（ビアエアンスト）\n\n夏にぴったりな、選りすぐりのクラフトビール…700円\n\n◆お酒の美術館\n\nハイボール…500円～\n\nオレンジジュース…500円\n\nおつまみ2種セット（ジャイアントコーン＆ティラミスチョコ）…500円\n\n京王聖蹟桜ヶ丘ショッピングセンターA館1階でも営業中！\n\nお酒の美術館 聖蹟桜ヶ丘店のインスタグラムはこちら！\n\n［来場プレゼント　冷タオル］\n\n肌温度-3℃が1時間続く！\n\nビオレ冷タオルセサミストリート限定デザイン(1本)\n\n各日各回先着150名様\n\n協賛：花王株式会社\n\n※なくなり次第終了\n\n［BON\"盆\"スタンプラリー］\n\n8月29日(土)～8月30日(日) の2日間で館内スタンプラリーを実施！\n\nスタンプを集めて、駄菓子をゲットしよう！\n\n※なくなり次第終了\n\n期間\n2026年8月29日(土)～2026年8月30日(日)\n\n時間\n1部11：30～14：00　2部15：00～18：00\n\n場所\nA館6階アウラホール\n\n参加方法\n入場無料　※一部有料のコンテンツがございますので予めご了承ください。\n\n備考\n※お支払いは現金のみとなります。（一部店舗では電子マネー決済も可能です。）\n※京王ポイント付与の対象外となります。\n※商品・サービス内容などの情報は予告なしに変更されることがありますので、あらかじめご了承ください。\n※天災や災害、トラブル等により、イベント内容の変更、または中止する場合がございます。予めご了承ください。\n※一部コンテンツはなくなり次第終了とさせていただきます。\n\nTOP\n\nイベント&トピックス\n\nせいせき史上初！Bon\"盆\"Disco 開催いたします！\n\nホーム\nフロアガイド\nグルメ\nイベント＆トピックス\nショップニュース\n施設案内\nアクセス＆駐車場\n\nフロアガイド\nグルメ\nイベント＆トピックス\nショップニュース\n施設案内\nアクセス＆駐車場\n\nフロアガイド\n\nグルメ\n\nイベント＆トピックス\n\nショップニュース\n\n施設案内\n\nアクセス＆駐車場",
+    "body": "EVENT\n\nせいせき史上初！Bon\"盆\"Disco 開催いたします！\n\nせいせき史上初！Bon\"盆\"Disco 開催いたします！\n\n✨せいせき史上初！BON\"盆\"Disco 開催✨\n\nせいせきでは、8月29日(土)～8月30日(日)でBON\"盆\"DiscoをA館6階アウラホールにて開催いたします！\n\n日本伝統の盆踊りからディスコダンスを子供からシニアまでお楽しみいただけます！\n\nご家族やお友達を誘って、ぜひ踊りに来てください♪ 皆さまのご参加をお待ちしております！\n\n夏の終わりにみんなでLet`s Dance\n✨\n\n［日時］\n\n2026年8月29日(土)～8月30日(日)\n\n一部：11：30～14：00\n\n二部：15：00～18：00\n\n11:00～ホワイエにてワークショップやディスコバー「フィーBar」、縁日を開催しております！\n\n［会場］\n\nA館6階アウラホール\n\n［BON\"盆\"Disco 出演者］\n\n29日\n：DJ KOU\nNO、G24 Dance Performance、一般社団法人日本盆踊り協会（両部参加）\n\n30日\n：DJ 栗原治久、ダンス平澤成基、一般社団法人日本盆踊り協会（両部参加）\n\n一部：武蔵一之宮・小野神社囃子連、clover 26\n\n二部：LOICX★チアダンススクール\n\n【BON\"盆\"Disco タイムテーブル】\n\nComing soon\n\n[ワークショップ　3世代で楽しめるディスコ＆盆ダンス扇子づくり]\n\nオリジナルのディスコグッズづくりを楽しめる！体験型ワークショップ！\n\n時間：11：00～18：00\n\n料金：800円～\n\n[ディスコマン変身レンタルコーナー]\n\nアフロヘアウィッグやサングラス、光るアクセサリー、ディスコ扇子などディスコファッションを楽しもう！\n\n時間：\n11:00～18:00\n※レンタルは無料。但し、貸し出し時に1,000 円の補償金をいただきます。\n\n[縁日]\n\nお子様も楽しめる縁日で、みんなでお祭り気分を味わおう！\n\n・メタルヨーヨー釣り\n※各日150名限定　計300名\n\n・わなげ\n※景品なくなり次第終了\n\n時間：11:00～18:00\n\n※当日の対象店舗でのお買い上げレシート1枚につき2回まで参加可能。\n\n[ディスコバー「フィーBar」]\n\nディスコミュージックを楽しみながら、アルコール、ソフトドリンクをお楽しみいただけます！\n\n時間：11:00～18:00\n\n出店Bar：\n\n◆Bierernst（ビアエアンスト）\n\n夏にぴったりな、選りすぐりのクラフトビール…700円\n\n◆お酒の美術館\n\nハイボール…500円～\n\nオレンジジュース…500円\n\nおつまみ2種セット（ジャイアントコーン＆ティラミスチョコ）…500円\n\n京王聖蹟桜ヶ丘ショッピングセンターA館1階でも営業中！\n\nお酒の美術館 聖蹟桜ヶ丘店のインスタグラムはこちら！\n\n［来場プレゼント　冷タオル］\n\n肌温度-3℃が1時間続く！\n\nビオレ冷タオルセサミストリート限定デザイン(1本)\n\n各日各回先着150名様\n\n協賛：花王株式会社\n\n※なくなり次第終了\n\n［BON\"盆\"スタンプラリー］\n\n8月29日(土)～8月30日(日) の2日間で館内スタンプラリーを実施！\n\nスタンプを集めて、駄菓子をゲットしよう\n\n各日300名限定　計600名\n\n※なくなり次第終了\n\n期間\n2026年8月29日(土)～2026年8月30日(日)\n\n時間\n1部11：30～14：00　2部15：00～18：00　11:00～ホワイエにてワークショップやディスコバー「フィーBar」、縁日を開催！\n\n場所\nA館6階アウラホール\n\n参加方法\n入場無料　※一部有料のコンテンツがございますので予めご了承ください。\n\n備考\n※お支払いは現金のみとなります。（一部店舗では電子マネー決済も可能です。）\n※京王ポイント付与の対象外となります。\n※商品・サービス内容などの情報は予告なしに変更されることがありますので、あらかじめご了承ください。\n※天災や災害、トラブル等により、イベント内容の変更、または中止する場合がございます。予めご了承ください。\n※一部コンテンツはなくなり次第終了とさせていただきます。\n\nTOP\n\nイベント&トピックス\n\nせいせき史上初！Bon\"盆\"Disco 開催いたします！\n\nホーム\nフロアガイド\nグルメ\nイベント＆トピックス\nショップニュース\n施設案内\nアクセス＆駐車場\n\nフロアガイド\nグルメ\nイベント＆トピックス\nショップニュース\n施設案内\nアクセス＆駐車場\n\nフロアガイド\n\nグルメ\n\nイベント＆トピックス\n\nショップニュース\n\n施設案内\n\nアクセス＆駐車場",
     "venue": "A館6階アウラホール",
     "organizer": null,
-    "time_label": "1部11：30～14：00　2部15：00～18：00",
+    "time_label": "1部11：30～14：00　2部15：00～18：00　11:00～ホワイエにてワークショップやディスコバー「フィーBar」、縁日を開催！",
     "is_kitchen_car": false,
     "first_seen": "2026-08-09T21:37:12Z",
-    "last_seen": "2026-08-11T21:57:24Z",
+    "last_seen": "2026-08-14T21:32:14Z",
     "archived": false
   },
   {
@@ -577,7 +606,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-07-17T21:57:36Z",
-    "last_seen": "2026-08-11T21:54:10Z",
+    "last_seen": "2026-08-14T21:29:07Z",
     "archived": false
   },
   {
@@ -614,6 +643,35 @@
     "archived": false
   },
   {
+    "id": "keiosc-000739",
+    "source": "keio-sc.jp",
+    "url": "https://www.keio-sc.jp/eventtopics/detail/?cd=000739",
+    "title": "夏休みeスポーツ体験会　in せいせき",
+    "date_label": "8月22日（土）・23日（日）",
+    "date_start": "2026-08-22",
+    "date_end": "2026-08-23",
+    "status": "開催予定",
+    "tags": [
+      "ショッピングセンター"
+    ],
+    "category_primary": "ショッピングセンター",
+    "genres": [],
+    "hashtags": [
+      "#せいせきSC",
+      "#聖蹟桜ヶ丘"
+    ],
+    "image_url": "https://www.keio-sc.jp/uploads/images/resized/316x152/seiseki/000002/000002/a9d16414.jpg",
+    "image_local": null,
+    "body": "EVENT\n\n夏休みeスポーツ体験会　in せいせき\n\n夏休みeスポーツ体験会　in せいせき\n\nNOモーション。\n\nNOモーション。\n\n🌻夏休みeスポーツ体験会🌻\n\n格闘ゲームを無料でプレイできる体験会を開催いたします！\n\nゲームプレイをしてくれた方には、先着でノベルティをプレゼント！\n\nゲストに、「NOモーション。」のお二人をお呼びしております。\n\nぜひ、遊びにきてね！\n\n■日時\n\n8月22日（土）・23日（日）\n\n10：00～17：00\n\n■場所\n\nA館6階アウラホール\n\n■内容\n\n・格闘ゲームを中心としたゲームプレイ体験会\n\n・フリープレイの他にゲストとの対戦やミニトーナメント企画など\n\n■参加費\n\n・無料\n\n■プレイゲームタイトル\n\n・Marvel Tokon Fighting Souls　他\n\n☆☆☆ゲスト☆☆☆\n\nNOモーション。\n\n（星ノこてつ様。・矢野ともゆき様。）\n\n※１３：００～１６：００\n\n期間\n8月22日（土）・23日（日）\n\n時間\n10：00～17：00\n\n場所\nA館6階アウラホール\n\n参加方法\n参加無料\n\n備考\n主催：京王聖蹟桜ヶ丘ショッピングセンター\n共催：京王電鉄株式会社\n協力：コジマ×ビックカメラ聖蹟桜ヶ丘駅店\n\nTOP\n\nイベント&トピックス\n\n夏休みeスポーツ体験会　in せいせき\n\nホーム\nフロアガイド\nグルメ\nイベント＆トピックス\nショップニュース\n施設案内\nアクセス＆駐車場\n\nフロアガイド\nグルメ\nイベント＆トピックス\nショップニュース\n施設案内\nアクセス＆駐車場\n\nフロアガイド\n\nグルメ\n\nイベント＆トピックス\n\nショップニュース\n\n施設案内\n\nアクセス＆駐車場",
+    "venue": "A館6階アウラホール",
+    "organizer": null,
+    "time_label": "10：00～17：00",
+    "is_kitchen_car": false,
+    "first_seen": "2026-08-14T21:32:11Z",
+    "last_seen": "2026-08-14T21:32:11Z",
+    "archived": false
+  },
+  {
     "id": "【2026年8月21日金）開催】クラシックギターの調べ-～",
     "source": "seiseki.org",
     "url": "https://seiseki.org/%e3%80%902026%e5%b9%b48%e6%9c%8821%e6%97%a5%e9%87%91%ef%bc%89%e9%96%8b%e5%82%ac%e3%80%91%e3%82%af%e3%83%a9%e3%82%b7%e3%83%83%e3%82%af%e3%82%ae%e3%82%bf%e3%83%bc%e3%81%ae%e8%aa%bf%e3%81%b9-%ef%bd%9e/",
@@ -640,7 +698,7 @@
     "time_label": "８月２１日(金）午後２時(午後１時30分開場）※先着200名",
     "is_kitchen_car": false,
     "first_seen": "2026-07-07T22:14:33Z",
-    "last_seen": "2026-08-11T21:54:12Z",
+    "last_seen": "2026-08-14T21:29:08Z",
     "archived": false
   },
   {
@@ -669,7 +727,7 @@
     "time_label": "10:30～18:30（最終日は17:30終了）",
     "is_kitchen_car": false,
     "first_seen": "2026-07-17T22:00:48Z",
-    "last_seen": "2026-08-11T21:57:27Z",
+    "last_seen": "2026-08-14T21:32:16Z",
     "archived": false
   },
   {
@@ -701,6 +759,93 @@
     "archived": false
   },
   {
+    "id": "keionet-006248",
+    "source": "keionet.com",
+    "url": "https://www.keionet.com/info/seisekisakuragaoka/topics/006248.html",
+    "title": "「大阪・京都 味紀行」お買い上げ特典 京王パスポートカード会員様限定 京王ポイント100ポイントプレゼント",
+    "date_label": "8/20(木)→25(火)",
+    "date_start": "2026-08-20",
+    "date_end": "2026-08-25",
+    "status": "開催予定",
+    "tags": [
+      "ショッピングセンター"
+    ],
+    "category_primary": "ショッピングセンター",
+    "genres": [],
+    "hashtags": [
+      "#せいせきSC",
+      "#聖蹟桜ヶ丘"
+    ],
+    "image_url": "https://www.keionet.com/info/seisekisakuragaoka/topics/cms_img/82d413ab7d292b7acb24e2133ee4546d41709dd7.png",
+    "image_local": null,
+    "body": "",
+    "venue": null,
+    "organizer": "京王百貨店 聖蹟桜ヶ丘店",
+    "time_label": null,
+    "is_kitchen_car": false,
+    "first_seen": "2026-08-14T21:32:23Z",
+    "last_seen": "2026-08-14T21:32:23Z",
+    "archived": false
+  },
+  {
+    "id": "keionet-006811",
+    "source": "keionet.com",
+    "url": "https://www.keionet.com/info/seisekisakuragaoka/topics/006811.html",
+    "title": "大阪・京都 味紀行 [551HORAI]整理券配布のご案内",
+    "date_label": "8/20(木)→25(火)",
+    "date_start": "2026-08-20",
+    "date_end": "2026-08-25",
+    "status": "開催予定",
+    "tags": [
+      "ショッピングセンター"
+    ],
+    "category_primary": "ショッピングセンター",
+    "genres": [],
+    "hashtags": [
+      "#せいせきSC",
+      "#聖蹟桜ヶ丘"
+    ],
+    "image_url": "https://www.keionet.com/info/seisekisakuragaoka/topics/cms_img/23.8.24_551horai_seiriken_thumb.jpg",
+    "image_local": null,
+    "body": "",
+    "venue": null,
+    "organizer": "京王百貨店 聖蹟桜ヶ丘店",
+    "time_label": null,
+    "is_kitchen_car": false,
+    "first_seen": "2026-08-14T21:32:23Z",
+    "last_seen": "2026-08-14T21:32:23Z",
+    "archived": false
+  },
+  {
+    "id": "keionet-006719",
+    "source": "keionet.com",
+    "url": "https://www.keionet.com/info/seisekisakuragaoka/topics/006719.html",
+    "title": "旬感フルーツセレクション　Part2",
+    "date_label": "8/20(木)→9/7(月)",
+    "date_start": "2026-08-20",
+    "date_end": "2026-09-07",
+    "status": "開催予定",
+    "tags": [
+      "ショッピングセンター"
+    ],
+    "category_primary": "ショッピングセンター",
+    "genres": [],
+    "hashtags": [
+      "#せいせきSC",
+      "#聖蹟桜ヶ丘"
+    ],
+    "image_url": "https://www.keionet.com/info/seisekisakuragaoka/topics/cms_img/260806shunkan_p2_cozycorner_01.jpg",
+    "image_local": null,
+    "body": "",
+    "venue": null,
+    "organizer": "京王百貨店 聖蹟桜ヶ丘店",
+    "time_label": null,
+    "is_kitchen_car": false,
+    "first_seen": "2026-08-14T21:32:23Z",
+    "last_seen": "2026-08-14T21:32:23Z",
+    "archived": false
+  },
+  {
     "id": "keiosc-000735",
     "source": "keio-sc.jp",
     "url": "https://www.keio-sc.jp/eventtopics/detail/?cd=000735",
@@ -729,7 +874,39 @@
     "time_label": "10：00～17：00",
     "is_kitchen_car": false,
     "first_seen": "2026-07-21T22:10:23Z",
-    "last_seen": "2026-08-11T21:57:29Z",
+    "last_seen": "2026-08-14T21:32:19Z",
+    "archived": false
+  },
+  {
+    "id": "keiosc-000738",
+    "source": "keio-sc.jp",
+    "url": "https://www.keio-sc.jp/eventtopics/detail/?cd=000738",
+    "title": "夏休みハンドメイドワークショップ",
+    "date_label": "8月18日（土）～8月16日（日）",
+    "date_start": "2026-08-18",
+    "date_end": "2026-08-16",
+    "status": "開催予定",
+    "tags": [
+      "ショッピングセンター"
+    ],
+    "category_primary": "ショッピングセンター",
+    "genres": [
+      "family",
+      "culture"
+    ],
+    "hashtags": [
+      "#せいせきSC",
+      "#聖蹟桜ヶ丘"
+    ],
+    "image_url": "https://www.keio-sc.jp/uploads/images/resized/316x152/seiseki/000002/000002/a9d16414.jpg",
+    "image_local": null,
+    "body": "EVENT\n\n夏休みハンドメイドワークショップ\n\n夏休みハンドメイドワークショップ\n\n夏休みハンドメイドワークショップ\n\n夏休みハンドメイドワークショップ\n\n🌻夏休み ハンドメイドワークショップを開催します🌻\n\nお子様から大人までお楽しみいただけます！\n\n日時：\n\n8月15日（土）～8月16日（日）\n\n10：00～17：00\n\n場所：\n\nA館6階 アウラホール\n\n■ハンドメイドワークショップ■\n\n【UVレジン】\n\n参加費　800円～\n\n【せかいにひとつだけのぬいぐるみ】\n\n参加費　1,500円～\n\n【葉脈アート】 ※15日（土）のみ\n\n参加費　500円～\n\n【バックチャーム/バッグ・ポシェット】 ※15日（土）\n\n参加費　1,300円～\n\n【シーグラスアート】 ※15日（土）のみ\n\n参加費　1,000円～\n\n【サンキャッチャー】 ※16日（日）\nのみ\n\n参加費　500円～\n\n【キラキラビーズキーホルダー】 ※16日（日）のみ\n\n参加費　1,000円～\n\n【つまみ細工】 ※16日（日）のみ\n\n参加費　1,300円～\n\n＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊\n■夏休み特別ワークショップ■\n\n【親子ドローン体験】（対象年齢 6歳以上）\n\nインストラクターがサポートするからはじめてでも安心！！\n\nぜひ挑戦してみてください。事前予約が可能です。\n\n参加費：\n\n予約サイト：\n\nhttps://reserva.be/crencerdrone\n\n期間\n8月18日（土）～8月16日（日）\n\n時間\n10：00～17：00\n\n場所\nA館6階 アウラホール\n\nお問い合わせ\n麻布Amy（エイミィ）\n\nお問い合わせ\n(TEL)\n03-6277-7366\n\n備考\n・ワークショップキットの販売はいたしません。\n・混雑状況により、整理券を配布する場合がございます。\n・価格は全て税込です。\n・各テーマとも材料がなくなり次第終了いたします。\n・写真はイメージです。\n・イベントの内容や時間は予告なく変更となる場合がございます。\n・ご来店前の体調管理など、コロナウイルス感染拡大防止へのご協力お願いいたします。\n\nTOP\n\nイベント&トピックス\n\n夏休みハンドメイドワークショップ\n\nホーム\nフロアガイド\nグルメ\nイベント＆トピックス\nショップニュース\n施設案内\nアクセス＆駐車場\n\nフロアガイド\nグルメ\nイベント＆トピックス\nショップニュース\n施設案内\nアクセス＆駐車場\n\nフロアガイド\n\nグルメ\n\nイベント＆トピックス\n\nショップニュース\n\n施設案内\n\nアクセス＆駐車場",
+    "venue": "A館6階 アウラホール",
+    "organizer": "麻布Amy（エイミィ）",
+    "time_label": "10：00～17：00",
+    "is_kitchen_car": false,
+    "first_seen": "2026-08-14T21:32:13Z",
+    "last_seen": "2026-08-14T21:32:13Z",
     "archived": false
   },
   {
@@ -760,7 +937,7 @@
     "time_label": "10:00～17:00※最終受付16:30※なくなり次第終了",
     "is_kitchen_car": false,
     "first_seen": "2026-07-14T22:05:51Z",
-    "last_seen": "2026-08-11T21:57:28Z",
+    "last_seen": "2026-08-14T21:32:17Z",
     "archived": false
   },
   {
@@ -771,7 +948,7 @@
     "date_label": "8/13(木)→19(水)",
     "date_start": "2026-08-13",
     "date_end": "2026-08-19",
-    "status": "開催予定",
+    "status": "開催中",
     "tags": [
       "ショッピングセンター"
     ],
@@ -789,7 +966,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-08-02T22:02:51Z",
-    "last_seen": "2026-08-11T21:57:33Z",
+    "last_seen": "2026-08-14T21:32:23Z",
     "archived": false
   },
   {
@@ -878,7 +1055,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-07-31T22:12:50Z",
-    "last_seen": "2026-08-11T21:57:33Z",
+    "last_seen": "2026-08-14T21:32:23Z",
     "archived": false
   },
   {
@@ -936,7 +1113,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-07-24T22:09:37Z",
-    "last_seen": "2026-08-11T21:57:26Z",
+    "last_seen": "2026-08-14T21:32:15Z",
     "archived": false
   },
   {
@@ -967,7 +1144,7 @@
     "time_label": null,
     "is_kitchen_car": true,
     "first_seen": "2026-07-28T22:09:19Z",
-    "last_seen": "2026-08-11T21:54:08Z",
+    "last_seen": "2026-08-14T21:29:04Z",
     "archived": false
   },
   {
@@ -1469,7 +1646,7 @@
     "time_label": "2026年7月7日（火）午後7時7分 乾杯",
     "is_kitchen_car": false,
     "first_seen": "2026-07-03T22:09:07Z",
-    "last_seen": "2026-08-11T21:54:13Z",
+    "last_seen": "2026-08-14T21:29:09Z",
     "archived": false
   },
   {
@@ -1589,7 +1766,7 @@
     "time_label": "2026年7月4日（土）・5日（日）",
     "is_kitchen_car": false,
     "first_seen": "2026-06-28T22:05:06Z",
-    "last_seen": "2026-08-11T21:54:17Z",
+    "last_seen": "2026-08-14T21:29:13Z",
     "archived": false
   },
   {
@@ -1708,7 +1885,7 @@
     "time_label": null,
     "is_kitchen_car": true,
     "first_seen": "2026-06-28T22:05:05Z",
-    "last_seen": "2026-08-11T21:54:16Z",
+    "last_seen": "2026-08-14T21:29:12Z",
     "archived": false
   },
   {
@@ -1737,7 +1914,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-06-28T22:08:14Z",
-    "last_seen": "2026-08-11T21:57:33Z",
+    "last_seen": "2026-08-14T21:32:23Z",
     "archived": false
   },
   {
@@ -1766,7 +1943,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-06-28T22:08:14Z",
-    "last_seen": "2026-08-11T21:57:33Z",
+    "last_seen": "2026-08-14T21:32:23Z",
     "archived": false
   },
   {
@@ -1829,7 +2006,7 @@
     "time_label": "2026年7月1日（水）～8月31日（月）",
     "is_kitchen_car": false,
     "first_seen": "2026-07-03T22:09:09Z",
-    "last_seen": "2026-08-11T21:54:15Z",
+    "last_seen": "2026-08-14T21:29:11Z",
     "archived": false
   },
   {
@@ -1944,7 +2121,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-22T22:12:11Z",
-    "last_seen": "2026-08-11T21:54:22Z",
+    "last_seen": "2026-08-14T21:29:17Z",
     "archived": false
   },
   {
@@ -2295,7 +2472,7 @@
     "time_label": "6月14日（日曜日） 10時30分～12時00分（開場：9時30分）",
     "is_kitchen_car": false,
     "first_seen": "2026-06-12T22:28:18Z",
-    "last_seen": "2026-08-11T21:54:19Z",
+    "last_seen": "2026-08-14T21:29:15Z",
     "archived": false
   },
   {
@@ -2323,7 +2500,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-22T22:12:12Z",
-    "last_seen": "2026-08-11T21:54:23Z",
+    "last_seen": "2026-08-14T21:29:19Z",
     "archived": false
   },
   {
@@ -2558,7 +2735,7 @@
     "time_label": "2026年6月6日（土）・7日（日） 10：00 ～ 16：00 （雨天中止）",
     "is_kitchen_car": false,
     "first_seen": "2026-05-15T22:03:08Z",
-    "last_seen": "2026-08-11T21:54:24Z",
+    "last_seen": "2026-08-14T21:29:20Z",
     "archived": false
   },
   {
@@ -2675,7 +2852,7 @@
     "time_label": null,
     "is_kitchen_car": true,
     "first_seen": "2026-05-29T22:39:36Z",
-    "last_seen": "2026-08-11T21:54:20Z",
+    "last_seen": "2026-08-14T21:29:16Z",
     "archived": false
   },
   {
@@ -2825,7 +3002,7 @@
     "time_label": "2026年5月24日（日） 11：00 ～ 16：00（雨天中止）",
     "is_kitchen_car": false,
     "first_seen": "2026-05-08T22:02:30Z",
-    "last_seen": "2026-08-11T21:54:27Z",
+    "last_seen": "2026-08-14T21:29:23Z",
     "archived": false
   },
   {
@@ -3092,7 +3269,7 @@
     "time_label": "2026年5月11日（月）～2026年5月24日（日）",
     "is_kitchen_car": false,
     "first_seen": "2026-05-10T21:54:06Z",
-    "last_seen": "2026-08-11T21:54:26Z",
+    "last_seen": "2026-08-14T21:29:21Z",
     "archived": false
   },
   {
@@ -3186,7 +3363,7 @@
     "time_label": "2026年5月10日（日）11:00～19:30",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:56:11Z",
-    "last_seen": "2026-08-11T21:54:30Z",
+    "last_seen": "2026-08-14T21:29:25Z",
     "archived": false
   },
   {
@@ -3520,7 +3697,7 @@
     "time_label": "2026年5月２日（土） 10：00 ～ 16：00（雨天中止）",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:56:12Z",
-    "last_seen": "2026-08-11T21:54:31Z",
+    "last_seen": "2026-08-14T21:29:27Z",
     "archived": false
   },
   {
@@ -3639,7 +3816,7 @@
     "time_label": null,
     "is_kitchen_car": true,
     "first_seen": "2026-05-05T22:04:53Z",
-    "last_seen": "2026-08-11T21:54:29Z",
+    "last_seen": "2026-08-14T21:29:24Z",
     "archived": false
   },
   {
@@ -3848,7 +4025,7 @@
     "time_label": "2026年4月23日（木）～26（日）小雨決行・荒天中止",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:56:14Z",
-    "last_seen": "2026-08-11T21:54:33Z",
+    "last_seen": "2026-08-14T21:29:28Z",
     "archived": false
   },
   {
@@ -3910,7 +4087,7 @@
     "time_label": "2026年４月19日（日） 10：00 ～ 16：00（雨天中止）",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:56:16Z",
-    "last_seen": "2026-08-11T21:54:36Z",
+    "last_seen": "2026-08-14T21:29:31Z",
     "archived": false
   },
   {
@@ -4003,7 +4180,7 @@
     "time_label": "2026年4月11日（土）10：00 ～ 20：00",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:56:19Z",
-    "last_seen": "2026-08-11T21:54:39Z",
+    "last_seen": "2026-08-14T21:29:33Z",
     "archived": false
   },
   {
@@ -4065,7 +4242,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-08-11T21:59:03Z",
+    "last_seen": "2026-08-14T21:34:07Z",
     "archived": false
   },
   {
@@ -4098,7 +4275,7 @@
     "time_label": "2025年4月5日（日） 10：00 ～ 1７：00 雨天一部決行",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:56:17Z",
-    "last_seen": "2026-08-11T21:54:37Z",
+    "last_seen": "2026-08-14T21:29:32Z",
     "archived": false
   },
   {
@@ -4161,7 +4338,7 @@
     "time_label": "2026年4月4日(土) 13:30～16:00 (開場13時)",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:56:21Z",
-    "last_seen": "2026-08-11T21:54:41Z",
+    "last_seen": "2026-08-14T21:29:36Z",
     "archived": false
   },
   {
@@ -4189,7 +4366,7 @@
     "time_label": "2026年4月4日(土) 13:30&#12316;16:00 (開場13時)\n参加費：1,000円 (資料代) 要申込\n定員：先着200名 (未成年者無料)",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:55Z",
-    "last_seen": "2026-08-11T21:57:37Z",
+    "last_seen": "2026-08-14T21:32:27Z",
     "archived": false
   },
   {
@@ -4217,7 +4394,7 @@
     "time_label": "2026年4月4日（土）13時30分〜16時（開場13時）",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:57Z",
-    "last_seen": "2026-08-11T21:57:40Z",
+    "last_seen": "2026-08-14T21:32:29Z",
     "archived": false
   },
   {
@@ -4277,7 +4454,7 @@
     "time_label": null,
     "is_kitchen_car": true,
     "first_seen": "2026-05-03T09:56:15Z",
-    "last_seen": "2026-08-11T21:54:34Z",
+    "last_seen": "2026-08-14T21:29:29Z",
     "archived": false
   },
   {
@@ -4368,7 +4545,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:56:20Z",
-    "last_seen": "2026-08-11T21:54:40Z",
+    "last_seen": "2026-08-14T21:29:35Z",
     "archived": false
   },
   {
@@ -4432,7 +4609,7 @@
     "time_label": "2026年3月22日（日） 13：00～16：00",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:56:22Z",
-    "last_seen": "2026-08-11T21:54:43Z",
+    "last_seen": "2026-08-14T21:29:37Z",
     "archived": false
   },
   {
@@ -4464,7 +4641,7 @@
     "time_label": "2026年３月1５日（日） 10：00 ～ 16：30（雨天中止）",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:56:29Z",
-    "last_seen": "2026-08-11T21:54:50Z",
+    "last_seen": "2026-08-14T21:29:44Z",
     "archived": false
   },
   {
@@ -4495,7 +4672,7 @@
     "time_label": null,
     "is_kitchen_car": true,
     "first_seen": "2026-05-03T09:56:24Z",
-    "last_seen": "2026-08-11T21:54:44Z",
+    "last_seen": "2026-08-14T21:29:39Z",
     "archived": false
   },
   {
@@ -4526,7 +4703,7 @@
     "time_label": "2026年2月22日（日）\n開場　12：30　開演　13：00　終演予定15：30\n定員：２００名（先着順）　無料",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:56Z",
-    "last_seen": "2026-08-11T21:57:38Z",
+    "last_seen": "2026-08-14T21:32:28Z",
     "archived": false
   },
   {
@@ -4558,7 +4735,7 @@
     "time_label": "2026年2月15日（日） 10：00 ～ 16：00（雨天中止）",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:56:25Z",
-    "last_seen": "2026-08-11T21:54:46Z",
+    "last_seen": "2026-08-14T21:29:40Z",
     "archived": false
   },
   {
@@ -4588,7 +4765,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:56:34Z",
-    "last_seen": "2026-08-11T21:54:55Z",
+    "last_seen": "2026-08-14T21:29:50Z",
     "archived": false
   },
   {
@@ -4618,7 +4795,7 @@
     "time_label": "2026年2月15日（日曜日）\n開場：13：30　開演14：00（閉演15：30）",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:59Z",
-    "last_seen": "2026-08-11T21:57:42Z",
+    "last_seen": "2026-08-14T21:32:31Z",
     "archived": false
   },
   {
@@ -4676,7 +4853,7 @@
     "time_label": "2026年2月14日(土) 13:00～15:30（予定）",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:56:30Z",
-    "last_seen": "2026-08-11T21:54:51Z",
+    "last_seen": "2026-08-14T21:29:45Z",
     "archived": false
   },
   {
@@ -4707,7 +4884,7 @@
     "time_label": "2026年2月12日（木）～3月29日（日）※各イベントは日程が違います。",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:56:26Z",
-    "last_seen": "2026-08-11T21:54:47Z",
+    "last_seen": "2026-08-14T21:29:41Z",
     "archived": false
   },
   {
@@ -4735,7 +4912,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-08-11T21:59:03Z",
+    "last_seen": "2026-08-14T21:34:07Z",
     "archived": false
   },
   {
@@ -4766,7 +4943,7 @@
     "time_label": null,
     "is_kitchen_car": true,
     "first_seen": "2026-05-03T09:56:27Z",
-    "last_seen": "2026-08-11T21:54:48Z",
+    "last_seen": "2026-08-14T21:29:43Z",
     "archived": false
   },
   {
@@ -4797,7 +4974,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:56:32Z",
-    "last_seen": "2026-08-11T21:54:54Z",
+    "last_seen": "2026-08-14T21:29:48Z",
     "archived": false
   },
   {
@@ -4853,7 +5030,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-08-11T21:59:03Z",
+    "last_seen": "2026-08-14T21:34:07Z",
     "archived": false
   },
   {
@@ -4881,7 +5058,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-08-11T21:59:03Z",
+    "last_seen": "2026-08-14T21:34:07Z",
     "archived": false
   },
   {
@@ -4912,7 +5089,7 @@
     "time_label": null,
     "is_kitchen_car": true,
     "first_seen": "2026-05-03T09:56:31Z",
-    "last_seen": "2026-08-11T21:54:53Z",
+    "last_seen": "2026-08-14T21:29:47Z",
     "archived": false
   },
   {
@@ -4944,7 +5121,7 @@
     "time_label": "2025年12月18日（木） 11：00～16：00 ※雨天中止",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:56:36Z",
-    "last_seen": "2026-08-11T21:54:58Z",
+    "last_seen": "2026-08-14T21:29:52Z",
     "archived": false
   },
   {
@@ -4976,7 +5153,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:56:42Z",
-    "last_seen": "2026-08-11T21:55:05Z",
+    "last_seen": "2026-08-14T21:29:59Z",
     "archived": false
   },
   {
@@ -5010,7 +5187,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:56:40Z",
-    "last_seen": "2026-08-11T21:55:02Z",
+    "last_seen": "2026-08-14T21:29:56Z",
     "archived": false
   },
   {
@@ -5038,7 +5215,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:56:37Z",
-    "last_seen": "2026-08-11T21:55:00Z",
+    "last_seen": "2026-08-14T21:29:54Z",
     "archived": false
   },
   {
@@ -5069,7 +5246,7 @@
     "time_label": null,
     "is_kitchen_car": true,
     "first_seen": "2026-05-03T09:56:41Z",
-    "last_seen": "2026-08-11T21:55:04Z",
+    "last_seen": "2026-08-14T21:29:58Z",
     "archived": false
   },
   {
@@ -5097,7 +5274,7 @@
     "time_label": "2025年12月1日（月）〜12月22日（月）",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:59:00Z",
-    "last_seen": "2026-08-11T21:57:43Z",
+    "last_seen": "2026-08-14T21:32:32Z",
     "archived": false
   },
   {
@@ -5125,7 +5302,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:56:38Z",
-    "last_seen": "2026-08-11T21:55:01Z",
+    "last_seen": "2026-08-14T21:29:55Z",
     "archived": false
   },
   {
@@ -5157,7 +5334,7 @@
     "time_label": "2025年11月22日（土） 10：00 ～ 12：00（雨天中止）",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:56:46Z",
-    "last_seen": "2026-08-11T21:55:10Z",
+    "last_seen": "2026-08-14T21:30:03Z",
     "archived": false
   },
   {
@@ -5189,7 +5366,7 @@
     "time_label": "2025年11月20日（木） 11：00～16：00 ※雨天中止",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:56:43Z",
-    "last_seen": "2026-08-11T21:55:07Z",
+    "last_seen": "2026-08-14T21:30:00Z",
     "archived": false
   },
   {
@@ -5221,7 +5398,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:56:48Z",
-    "last_seen": "2026-08-11T21:55:12Z",
+    "last_seen": "2026-08-14T21:30:06Z",
     "archived": false
   },
   {
@@ -5253,7 +5430,7 @@
     "time_label": "2025年11月8日（土）・９日（日） 10：00 ～ 15：30 （雨天中止）",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:56:50Z",
-    "last_seen": "2026-08-11T21:55:14Z",
+    "last_seen": "2026-08-14T21:30:07Z",
     "archived": false
   },
   {
@@ -5288,7 +5465,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:56:51Z",
-    "last_seen": "2026-08-11T21:55:15Z",
+    "last_seen": "2026-08-14T21:30:08Z",
     "archived": false
   },
   {
@@ -5320,7 +5497,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:56:47Z",
-    "last_seen": "2026-08-11T21:55:11Z",
+    "last_seen": "2026-08-14T21:30:04Z",
     "archived": false
   },
   {
@@ -5351,7 +5528,7 @@
     "time_label": null,
     "is_kitchen_car": true,
     "first_seen": "2026-05-03T09:56:45Z",
-    "last_seen": "2026-08-11T21:55:08Z",
+    "last_seen": "2026-08-14T21:30:02Z",
     "archived": false
   },
   {
@@ -5382,7 +5559,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:56:55Z",
-    "last_seen": "2026-08-11T21:55:19Z",
+    "last_seen": "2026-08-14T21:30:12Z",
     "archived": false
   },
   {
@@ -5415,7 +5592,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:56:52Z",
-    "last_seen": "2026-08-11T21:55:17Z",
+    "last_seen": "2026-08-14T21:30:10Z",
     "archived": false
   },
   {
@@ -5448,7 +5625,7 @@
     "time_label": "2025年10月５日（日） 10：00 ～ 17：00（雨天中止）",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:57:00Z",
-    "last_seen": "2026-08-11T21:55:25Z",
+    "last_seen": "2026-08-14T21:30:18Z",
     "archived": false
   },
   {
@@ -5480,7 +5657,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:56:58Z",
-    "last_seen": "2026-08-11T21:55:24Z",
+    "last_seen": "2026-08-14T21:30:16Z",
     "archived": false
   },
   {
@@ -5512,7 +5689,7 @@
     "time_label": "2025年10月2日（木）～5日（日）",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:56:57Z",
-    "last_seen": "2026-08-11T21:55:22Z",
+    "last_seen": "2026-08-14T21:30:15Z",
     "archived": false
   },
   {
@@ -5543,7 +5720,7 @@
     "time_label": null,
     "is_kitchen_car": true,
     "first_seen": "2026-05-03T09:56:53Z",
-    "last_seen": "2026-08-11T21:55:18Z",
+    "last_seen": "2026-08-14T21:30:11Z",
     "archived": false
   },
   {
@@ -5600,7 +5777,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-08-11T21:59:03Z",
+    "last_seen": "2026-08-14T21:34:07Z",
     "archived": false
   },
   {
@@ -5628,7 +5805,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-08-11T21:59:03Z",
+    "last_seen": "2026-08-14T21:34:07Z",
     "archived": false
   },
   {
@@ -5658,7 +5835,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-08-11T21:59:03Z",
+    "last_seen": "2026-08-14T21:34:07Z",
     "archived": false
   },
   {
@@ -5686,7 +5863,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-08-11T21:59:03Z",
+    "last_seen": "2026-08-14T21:34:07Z",
     "archived": false
   },
   {
@@ -5714,7 +5891,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-08-11T21:59:03Z",
+    "last_seen": "2026-08-14T21:34:07Z",
     "archived": false
   },
   {
@@ -5745,7 +5922,7 @@
     "time_label": null,
     "is_kitchen_car": true,
     "first_seen": "2026-05-03T09:57:01Z",
-    "last_seen": "2026-08-11T21:55:26Z",
+    "last_seen": "2026-08-14T21:30:19Z",
     "archived": false
   },
   {
@@ -5777,7 +5954,7 @@
     "time_label": "8/3（日）11:00-18:00",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:57:03Z",
-    "last_seen": "2026-08-11T21:55:29Z",
+    "last_seen": "2026-08-14T21:30:22Z",
     "archived": false
   },
   {
@@ -5806,7 +5983,7 @@
     "time_label": "8月2日（土）～8月11日（月・祝） 午前10時～午後5時（最終入場4時30分）",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:57:02Z",
-    "last_seen": "2026-08-11T21:55:28Z",
+    "last_seen": "2026-08-14T21:30:20Z",
     "archived": false
   },
   {
@@ -5837,7 +6014,7 @@
     "time_label": "2025年8月2日（土）・３日（日） 18：30 ～ 20：30 （雨天中止）",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:57:07Z",
-    "last_seen": "2026-08-11T21:55:33Z",
+    "last_seen": "2026-08-14T21:30:26Z",
     "archived": false
   },
   {
@@ -5867,7 +6044,7 @@
     "time_label": "2025年7月26日（土）",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:57:08Z",
-    "last_seen": "2026-08-11T21:55:35Z",
+    "last_seen": "2026-08-14T21:30:27Z",
     "archived": false
   },
   {
@@ -5895,7 +6072,7 @@
     "time_label": "2025年7月5日（土）・6日（日）",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:57:10Z",
-    "last_seen": "2026-08-11T21:55:36Z",
+    "last_seen": "2026-08-14T21:30:28Z",
     "archived": false
   },
   {
@@ -5924,7 +6101,7 @@
     "time_label": "7月3日（木）～8月31日（日）",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:57:06Z",
-    "last_seen": "2026-08-11T21:55:32Z",
+    "last_seen": "2026-08-14T21:30:24Z",
     "archived": false
   },
   {
@@ -5955,7 +6132,7 @@
     "time_label": null,
     "is_kitchen_car": true,
     "first_seen": "2026-05-03T09:57:11Z",
-    "last_seen": "2026-08-11T21:55:38Z",
+    "last_seen": "2026-08-14T21:30:30Z",
     "archived": false
   },
   {
@@ -6018,7 +6195,7 @@
     "time_label": "2025年6月21日（土）16：00  ~ 20：30",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:57:15Z",
-    "last_seen": "2026-08-11T21:55:42Z",
+    "last_seen": "2026-08-14T21:30:34Z",
     "archived": false
   },
   {
@@ -6047,7 +6224,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:57:12Z",
-    "last_seen": "2026-08-11T21:55:39Z",
+    "last_seen": "2026-08-14T21:30:31Z",
     "archived": false
   },
   {
@@ -6077,7 +6254,7 @@
     "time_label": "2025年6月14日（土）19:00開演（18:30開場）",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:57:13Z",
-    "last_seen": "2026-08-11T21:55:40Z",
+    "last_seen": "2026-08-14T21:30:32Z",
     "archived": false
   },
   {
@@ -6109,7 +6286,7 @@
     "time_label": "2025年6月14日（土）・15日（日） 10：00 ～ 16：00 （雨天中止）",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:57:16Z",
-    "last_seen": "2026-08-11T21:55:43Z",
+    "last_seen": "2026-08-14T21:30:35Z",
     "archived": false
   },
   {
@@ -6140,7 +6317,7 @@
     "time_label": null,
     "is_kitchen_car": true,
     "first_seen": "2026-05-03T09:57:17Z",
-    "last_seen": "2026-08-11T21:55:45Z",
+    "last_seen": "2026-08-14T21:30:36Z",
     "archived": false
   },
   {
@@ -6172,7 +6349,7 @@
     "time_label": "2025年5月24日（土） 10：00 ～ 17：00（雨天中止）",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:57:22Z",
-    "last_seen": "2026-08-11T21:55:50Z",
+    "last_seen": "2026-08-14T21:30:42Z",
     "archived": false
   },
   {
@@ -6204,7 +6381,7 @@
     "time_label": "2025年5月18日（日） 11：00 ～ 15：30（雨天中止）",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:57:21Z",
-    "last_seen": "2026-08-11T21:55:49Z",
+    "last_seen": "2026-08-14T21:30:40Z",
     "archived": false
   },
   {
@@ -6236,7 +6413,7 @@
     "time_label": "2025年5月15日（木） 11：00 ～ 16：00 ※雨天中止",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:57:18Z",
-    "last_seen": "2026-08-11T21:55:46Z",
+    "last_seen": "2026-08-14T21:30:38Z",
     "archived": false
   },
   {
@@ -6268,7 +6445,7 @@
     "time_label": "2025年5月11日（日）11：00 ～ 17：00 雨天中止",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:57:20Z",
-    "last_seen": "2026-08-11T21:55:47Z",
+    "last_seen": "2026-08-14T21:30:39Z",
     "archived": false
   },
   {
@@ -6300,7 +6477,7 @@
     "time_label": "2025年5月3日（日）11：00 ～ 17：00（雨天中止）",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:57:25Z",
-    "last_seen": "2026-08-11T21:55:53Z",
+    "last_seen": "2026-08-14T21:30:44Z",
     "archived": false
   },
   {
@@ -6331,7 +6508,7 @@
     "time_label": null,
     "is_kitchen_car": true,
     "first_seen": "2026-05-03T09:57:23Z",
-    "last_seen": "2026-08-11T21:55:52Z",
+    "last_seen": "2026-08-14T21:30:43Z",
     "archived": false
   },
   {
@@ -6362,7 +6539,7 @@
     "time_label": "2025年4月13日（日） 10：00 ～ 18：00 荒天中止",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:57:26Z",
-    "last_seen": "2026-08-11T21:55:54Z",
+    "last_seen": "2026-08-14T21:30:46Z",
     "archived": false
   },
   {
@@ -6392,7 +6569,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:57:27Z",
-    "last_seen": "2026-08-11T21:55:56Z",
+    "last_seen": "2026-08-14T21:30:47Z",
     "archived": false
   },
   {
@@ -6420,7 +6597,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-08-11T21:59:03Z",
+    "last_seen": "2026-08-14T21:34:07Z",
     "archived": false
   },
   {
@@ -6452,7 +6629,7 @@
     "time_label": "2025年4月6日（日） 10：00 ～ 1７：00 雨天一部決行",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:57:31Z",
-    "last_seen": "2026-08-11T21:56:00Z",
+    "last_seen": "2026-08-14T21:30:51Z",
     "archived": false
   },
   {
@@ -6483,7 +6660,7 @@
     "time_label": null,
     "is_kitchen_car": true,
     "first_seen": "2026-05-03T09:57:28Z",
-    "last_seen": "2026-08-11T21:55:57Z",
+    "last_seen": "2026-08-14T21:30:48Z",
     "archived": false
   },
   {
@@ -6515,7 +6692,7 @@
     "time_label": "2025年3月29日（土）11時～19時",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:57:32Z",
-    "last_seen": "2026-08-11T21:56:01Z",
+    "last_seen": "2026-08-14T21:30:52Z",
     "archived": false
   },
   {
@@ -6546,7 +6723,7 @@
     "time_label": "2025年3月23日（日）10：00 ～ 15：00（売切終了）",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:57:30Z",
-    "last_seen": "2026-08-11T21:55:59Z",
+    "last_seen": "2026-08-14T21:30:50Z",
     "archived": false
   },
   {
@@ -6580,7 +6757,7 @@
     "time_label": "2025年3月17日（月）10時 ～ 4月4日（金) 18時",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:57:33Z",
-    "last_seen": "2026-08-11T21:56:03Z",
+    "last_seen": "2026-08-14T21:30:54Z",
     "archived": false
   },
   {
@@ -6608,7 +6785,7 @@
     "time_label": "２０２５年３月９日（日）１４時～（２時間程度）",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:57:39Z",
-    "last_seen": "2026-08-11T21:56:10Z",
+    "last_seen": "2026-08-14T21:31:00Z",
     "archived": false
   },
   {
@@ -6636,7 +6813,7 @@
     "time_label": "２０２５年３月２日（日）１４：００～１６：００",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:57:38Z",
-    "last_seen": "2026-08-11T21:56:09Z",
+    "last_seen": "2026-08-14T21:30:59Z",
     "archived": false
   },
   {
@@ -6667,7 +6844,7 @@
     "time_label": null,
     "is_kitchen_car": true,
     "first_seen": "2026-05-03T09:57:36Z",
-    "last_seen": "2026-08-11T21:56:06Z",
+    "last_seen": "2026-08-14T21:30:56Z",
     "archived": false
   },
   {
@@ -6697,7 +6874,7 @@
     "time_label": "2025年2月15日（土）",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:57:41Z",
-    "last_seen": "2026-08-11T21:56:11Z",
+    "last_seen": "2026-08-14T21:31:02Z",
     "archived": false
   },
   {
@@ -6726,7 +6903,7 @@
     "time_label": "2025年２月15日(土) 14:00～15:50",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:57:47Z",
-    "last_seen": "2026-08-11T21:56:18Z",
+    "last_seen": "2026-08-14T21:31:09Z",
     "archived": false
   },
   {
@@ -6758,7 +6935,7 @@
     "time_label": "2025年２月11日（火・祝） 10：00 ～ 12：00（雨天中止）",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:57:44Z",
-    "last_seen": "2026-08-11T21:56:16Z",
+    "last_seen": "2026-08-14T21:31:06Z",
     "archived": false
   },
   {
@@ -6789,7 +6966,7 @@
     "time_label": "2025年2月9日（日）12:00 ～ 15:00",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:57:42Z",
-    "last_seen": "2026-08-11T21:56:13Z",
+    "last_seen": "2026-08-14T21:31:03Z",
     "archived": false
   },
   {
@@ -6817,7 +6994,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-08-11T21:59:03Z",
+    "last_seen": "2026-08-14T21:34:07Z",
     "archived": false
   },
   {
@@ -6848,7 +7025,7 @@
     "time_label": null,
     "is_kitchen_car": true,
     "first_seen": "2026-05-03T09:57:43Z",
-    "last_seen": "2026-08-11T21:56:14Z",
+    "last_seen": "2026-08-14T21:31:05Z",
     "archived": false
   },
   {
@@ -6880,7 +7057,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:57:48Z",
-    "last_seen": "2026-08-11T21:56:20Z",
+    "last_seen": "2026-08-14T21:31:10Z",
     "archived": false
   },
   {
@@ -6911,7 +7088,7 @@
     "time_label": "2025年1月13日（月・祝） 10：00 ～ 15：00（売り切れ次第終了）",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:57:46Z",
-    "last_seen": "2026-08-11T21:56:17Z",
+    "last_seen": "2026-08-14T21:31:07Z",
     "archived": false
   },
   {
@@ -6939,7 +7116,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-08-11T21:59:03Z",
+    "last_seen": "2026-08-14T21:34:07Z",
     "archived": false
   },
   {
@@ -6967,7 +7144,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:36:28Z",
-    "last_seen": "2026-08-11T21:59:03Z",
+    "last_seen": "2026-08-14T21:34:07Z",
     "archived": false
   },
   {
@@ -6998,7 +7175,7 @@
     "time_label": null,
     "is_kitchen_car": true,
     "first_seen": "2026-05-03T09:57:49Z",
-    "last_seen": "2026-08-11T21:56:21Z",
+    "last_seen": "2026-08-14T21:31:11Z",
     "archived": false
   },
   {
@@ -7029,7 +7206,7 @@
     "time_label": "2024年12月15日（日） 11：00 ～ （売り切れ次第終了）",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:57:51Z",
-    "last_seen": "2026-08-11T21:56:23Z",
+    "last_seen": "2026-08-14T21:31:13Z",
     "archived": false
   },
   {
@@ -7060,7 +7237,7 @@
     "time_label": "2024年12月7日（土） 10：00 ～ 15：30",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:57:52Z",
-    "last_seen": "2026-08-11T21:56:24Z",
+    "last_seen": "2026-08-14T21:31:14Z",
     "archived": false
   },
   {
@@ -7091,7 +7268,7 @@
     "time_label": null,
     "is_kitchen_car": true,
     "first_seen": "2026-05-03T09:57:53Z",
-    "last_seen": "2026-08-11T21:56:25Z",
+    "last_seen": "2026-08-14T21:31:15Z",
     "archived": false
   },
   {
@@ -7121,7 +7298,7 @@
     "time_label": "①12月１日（日） ②12月14日（土） ③12月21日（土）いずれも13:30~16:30（13:00開場）",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:57:56Z",
-    "last_seen": "2026-08-11T21:56:28Z",
+    "last_seen": "2026-08-14T21:31:18Z",
     "archived": false
   },
   {
@@ -7152,7 +7329,7 @@
     "time_label": "2024年11月30日（土） 14：00 ～ 18：30 大雨・強風中止",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:57:54Z",
-    "last_seen": "2026-08-11T21:56:27Z",
+    "last_seen": "2026-08-14T21:31:17Z",
     "archived": false
   },
   {
@@ -7183,7 +7360,7 @@
     "time_label": null,
     "is_kitchen_car": true,
     "first_seen": "2026-05-03T09:57:58Z",
-    "last_seen": "2026-08-11T21:56:31Z",
+    "last_seen": "2026-08-14T21:31:21Z",
     "archived": false
   },
   {
@@ -7214,7 +7391,7 @@
     "time_label": "2024年10月19日（土）・20日（日） 10：00 ～ 16：00 （雨天中止）",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:04Z",
-    "last_seen": "2026-08-11T21:56:38Z",
+    "last_seen": "2026-08-14T21:31:27Z",
     "archived": false
   },
   {
@@ -7244,7 +7421,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:57:59Z",
-    "last_seen": "2026-08-11T21:56:32Z",
+    "last_seen": "2026-08-14T21:31:22Z",
     "archived": false
   },
   {
@@ -7275,7 +7452,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:06Z",
-    "last_seen": "2026-08-11T21:56:40Z",
+    "last_seen": "2026-08-14T21:31:29Z",
     "archived": false
   },
   {
@@ -7307,7 +7484,7 @@
     "time_label": "2024年10月3日（木）～6日（日）",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:01Z",
-    "last_seen": "2026-08-11T21:56:34Z",
+    "last_seen": "2026-08-14T21:31:23Z",
     "archived": false
   },
   {
@@ -7338,7 +7515,7 @@
     "time_label": null,
     "is_kitchen_car": true,
     "first_seen": "2026-05-03T09:58:02Z",
-    "last_seen": "2026-08-11T21:56:35Z",
+    "last_seen": "2026-08-14T21:31:25Z",
     "archived": false
   },
   {
@@ -7369,7 +7546,7 @@
     "time_label": "2024年9月28日（土） 10：00 ～ 1６：30 雨天中止",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:03Z",
-    "last_seen": "2026-08-11T21:56:37Z",
+    "last_seen": "2026-08-14T21:31:26Z",
     "archived": false
   },
   {
@@ -7400,7 +7577,7 @@
     "time_label": null,
     "is_kitchen_car": true,
     "first_seen": "2026-05-03T09:58:07Z",
-    "last_seen": "2026-08-11T21:56:41Z",
+    "last_seen": "2026-08-14T21:31:30Z",
     "archived": false
   },
   {
@@ -7428,7 +7605,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:09Z",
-    "last_seen": "2026-08-11T21:56:44Z",
+    "last_seen": "2026-08-14T21:31:33Z",
     "archived": false
   },
   {
@@ -7460,7 +7637,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:08Z",
-    "last_seen": "2026-08-11T21:56:42Z",
+    "last_seen": "2026-08-14T21:31:31Z",
     "archived": false
   },
   {
@@ -7496,7 +7673,7 @@
     "time_label": "2024年8月30日（金）・31日（土）16:00～20:00",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:11Z",
-    "last_seen": "2026-08-11T21:56:45Z",
+    "last_seen": "2026-08-14T21:31:34Z",
     "archived": false
   },
   {
@@ -7530,7 +7707,7 @@
     "time_label": "2024年8月30日（金）・31日（土）16:00～20:00",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:12Z",
-    "last_seen": "2026-08-11T21:56:47Z",
+    "last_seen": "2026-08-14T21:31:35Z",
     "archived": false
   },
   {
@@ -7561,7 +7738,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:13Z",
-    "last_seen": "2026-08-11T21:56:48Z",
+    "last_seen": "2026-08-14T21:31:37Z",
     "archived": false
   },
   {
@@ -7592,7 +7769,7 @@
     "time_label": null,
     "is_kitchen_car": true,
     "first_seen": "2026-05-03T09:58:14Z",
-    "last_seen": "2026-08-11T21:56:49Z",
+    "last_seen": "2026-08-14T21:31:38Z",
     "archived": false
   },
   {
@@ -7622,7 +7799,7 @@
     "time_label": "2024年７月６日（土）、7日（日） ８：00 ～ 14：00",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:16Z",
-    "last_seen": "2026-08-11T21:56:51Z",
+    "last_seen": "2026-08-14T21:31:39Z",
     "archived": false
   },
   {
@@ -7653,7 +7830,7 @@
     "time_label": null,
     "is_kitchen_car": true,
     "first_seen": "2026-05-03T09:58:17Z",
-    "last_seen": "2026-08-11T21:56:52Z",
+    "last_seen": "2026-08-14T21:31:41Z",
     "archived": false
   },
   {
@@ -7684,7 +7861,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:18Z",
-    "last_seen": "2026-08-11T21:56:54Z",
+    "last_seen": "2026-08-14T21:31:42Z",
     "archived": false
   },
   {
@@ -7715,7 +7892,7 @@
     "time_label": null,
     "is_kitchen_car": true,
     "first_seen": "2026-05-03T09:58:19Z",
-    "last_seen": "2026-08-11T21:56:55Z",
+    "last_seen": "2026-08-14T21:31:43Z",
     "archived": false
   },
   {
@@ -7746,7 +7923,7 @@
     "time_label": "2024年6月1日（土）・2日（日） 10：00 ～ 17：00 雨天中止",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:21Z",
-    "last_seen": "2026-08-11T21:56:56Z",
+    "last_seen": "2026-08-14T21:31:45Z",
     "archived": false
   },
   {
@@ -7779,7 +7956,7 @@
     "time_label": "2024年5月5日（日・祝） 10：00 ～ 19：00 雨天中止",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:23Z",
-    "last_seen": "2026-08-11T21:56:59Z",
+    "last_seen": "2026-08-14T21:31:47Z",
     "archived": false
   },
   {
@@ -7810,7 +7987,7 @@
     "time_label": null,
     "is_kitchen_car": true,
     "first_seen": "2026-05-03T09:58:22Z",
-    "last_seen": "2026-08-11T21:56:58Z",
+    "last_seen": "2026-08-14T21:31:46Z",
     "archived": false
   },
   {
@@ -7841,7 +8018,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:26Z",
-    "last_seen": "2026-08-11T21:57:02Z",
+    "last_seen": "2026-08-14T21:31:50Z",
     "archived": false
   },
   {
@@ -7873,7 +8050,7 @@
     "time_label": "2024年4月7日（日） 10：00 ～ 17：00 雨天一部決行",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:27Z",
-    "last_seen": "2026-08-11T21:57:03Z",
+    "last_seen": "2026-08-14T21:31:51Z",
     "archived": false
   },
   {
@@ -7904,7 +8081,7 @@
     "time_label": null,
     "is_kitchen_car": true,
     "first_seen": "2026-05-03T09:58:24Z",
-    "last_seen": "2026-08-11T21:57:01Z",
+    "last_seen": "2026-08-14T21:31:49Z",
     "archived": false
   },
   {
@@ -7932,7 +8109,7 @@
     "time_label": "①2024年2月9日（金）妄想ワークショップ編「やってみたいを妄想してみよう！」",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:33Z",
-    "last_seen": "2026-08-11T21:57:10Z",
+    "last_seen": "2026-08-14T21:31:58Z",
     "archived": false
   },
   {
@@ -7963,7 +8140,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:36Z",
-    "last_seen": "2026-08-11T21:57:13Z",
+    "last_seen": "2026-08-14T21:32:01Z",
     "archived": false
   },
   {
@@ -7992,7 +8169,7 @@
     "time_label": "2023年12月10日（日）・16日（土） ８：00 ～ 15：00 荒天中止",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:39Z",
-    "last_seen": "2026-08-11T21:57:17Z",
+    "last_seen": "2026-08-14T21:32:05Z",
     "archived": false
   },
   {
@@ -8023,7 +8200,7 @@
     "time_label": "2023年12月９日（土） 11：00 ～ 15：00 雨天中止",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:37Z",
-    "last_seen": "2026-08-11T21:57:15Z",
+    "last_seen": "2026-08-14T21:32:02Z",
     "archived": false
   },
   {
@@ -8109,7 +8286,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:52Z",
-    "last_seen": "2026-08-11T21:57:33Z",
+    "last_seen": "2026-08-14T21:32:23Z",
     "archived": false
   },
   {
@@ -8140,7 +8317,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:56:35Z",
-    "last_seen": "2026-08-11T21:54:57Z",
+    "last_seen": "2026-08-14T21:29:51Z",
     "archived": false
   },
   {
@@ -8173,7 +8350,7 @@
     "time_label": "10月17日（金）〜19日（日）",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:56:56Z",
-    "last_seen": "2026-08-11T21:55:21Z",
+    "last_seen": "2026-08-14T21:30:14Z",
     "archived": false
   },
   {
@@ -8207,7 +8384,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:57:05Z",
-    "last_seen": "2026-08-11T21:55:31Z",
+    "last_seen": "2026-08-14T21:30:23Z",
     "archived": false
   },
   {
@@ -8239,7 +8416,7 @@
     "time_label": "3月15日（土）８：30～9：30（雨天中止）",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:57:35Z",
-    "last_seen": "2026-08-11T21:56:04Z",
+    "last_seen": "2026-08-14T21:30:55Z",
     "archived": false
   },
   {
@@ -8271,7 +8448,7 @@
     "time_label": "2025年2月22日（土） 10：00 ～ 15：00",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:57:37Z",
-    "last_seen": "2026-08-11T21:56:07Z",
+    "last_seen": "2026-08-14T21:30:58Z",
     "archived": false
   },
   {
@@ -8301,7 +8478,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:57:57Z",
-    "last_seen": "2026-08-11T21:56:30Z",
+    "last_seen": "2026-08-14T21:31:19Z",
     "archived": false
   },
   {
@@ -8333,7 +8510,7 @@
     "time_label": "2024年3月24日（日） 10：00 ～ 18：00 雨天中止",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:28Z",
-    "last_seen": "2026-08-11T21:57:05Z",
+    "last_seen": "2026-08-14T21:31:53Z",
     "archived": false
   },
   {
@@ -8362,7 +8539,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:29Z",
-    "last_seen": "2026-08-11T21:57:06Z",
+    "last_seen": "2026-08-14T21:31:54Z",
     "archived": false
   },
   {
@@ -8390,7 +8567,7 @@
     "time_label": "2024年2月23日（金・祝）",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:31Z",
-    "last_seen": "2026-08-11T21:57:08Z",
+    "last_seen": "2026-08-14T21:31:55Z",
     "archived": false
   },
   {
@@ -8419,7 +8596,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:32Z",
-    "last_seen": "2026-08-11T21:57:09Z",
+    "last_seen": "2026-08-14T21:31:57Z",
     "archived": false
   },
   {
@@ -8448,7 +8625,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:34Z",
-    "last_seen": "2026-08-11T21:57:12Z",
+    "last_seen": "2026-08-14T21:31:59Z",
     "archived": false
   },
   {
@@ -8477,7 +8654,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:38Z",
-    "last_seen": "2026-08-11T21:57:16Z",
+    "last_seen": "2026-08-14T21:32:04Z",
     "archived": false
   },
   {
@@ -8509,7 +8686,7 @@
     "time_label": "2023年10月14日（土）・15日（日） 10：00 ～ 16：00 荒天中止",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:41Z",
-    "last_seen": "2026-08-11T21:57:19Z",
+    "last_seen": "2026-08-14T21:32:06Z",
     "archived": false
   },
   {
@@ -8596,7 +8773,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:52Z",
-    "last_seen": "2026-08-11T21:57:33Z",
+    "last_seen": "2026-08-14T21:32:23Z",
     "archived": false
   },
   {
@@ -8625,7 +8802,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:52Z",
-    "last_seen": "2026-08-11T21:57:33Z",
+    "last_seen": "2026-08-14T21:32:23Z",
     "archived": false
   },
   {
@@ -8654,7 +8831,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:52Z",
-    "last_seen": "2026-08-11T21:57:33Z",
+    "last_seen": "2026-08-14T21:32:23Z",
     "archived": false
   },
   {
@@ -8683,7 +8860,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:52Z",
-    "last_seen": "2026-08-11T21:57:33Z",
+    "last_seen": "2026-08-14T21:32:23Z",
     "archived": false
   },
   {
@@ -8741,7 +8918,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:52Z",
-    "last_seen": "2026-08-11T21:57:33Z",
+    "last_seen": "2026-08-14T21:32:23Z",
     "archived": false
   },
   {
@@ -8770,7 +8947,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:52Z",
-    "last_seen": "2026-08-11T21:57:33Z",
+    "last_seen": "2026-08-14T21:32:23Z",
     "archived": false
   },
   {
@@ -8799,7 +8976,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:52Z",
-    "last_seen": "2026-08-11T21:57:33Z",
+    "last_seen": "2026-08-14T21:32:23Z",
     "archived": false
   },
   {
@@ -8857,7 +9034,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:52Z",
-    "last_seen": "2026-08-11T21:57:33Z",
+    "last_seen": "2026-08-14T21:32:23Z",
     "archived": false
   },
   {
@@ -8886,7 +9063,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:52Z",
-    "last_seen": "2026-08-11T21:57:33Z",
+    "last_seen": "2026-08-14T21:32:23Z",
     "archived": false
   },
   {
@@ -8915,7 +9092,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:52Z",
-    "last_seen": "2026-08-11T21:57:33Z",
+    "last_seen": "2026-08-14T21:32:23Z",
     "archived": false
   },
   {
@@ -8944,7 +9121,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:52Z",
-    "last_seen": "2026-08-11T21:57:33Z",
+    "last_seen": "2026-08-14T21:32:23Z",
     "archived": false
   },
   {
@@ -8973,7 +9150,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:52Z",
-    "last_seen": "2026-08-11T21:57:33Z",
+    "last_seen": "2026-08-14T21:32:23Z",
     "archived": false
   },
   {
@@ -9008,7 +9185,7 @@
     "time_label": "４月5日（日）　10：00〜17：00（雨天一部決行）\nスタンプラリー　ゴール＆抽選：12:30〜16:00（観蔵院境内にて）\nスタンプラリーシートの配布（カワマチ）は10：00〜14：00",
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:54Z",
-    "last_seen": "2026-08-11T21:57:36Z",
+    "last_seen": "2026-08-14T21:32:25Z",
     "archived": false
   },
   {
@@ -9036,7 +9213,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-03T09:58:58Z",
-    "last_seen": "2026-08-11T21:57:41Z",
+    "last_seen": "2026-08-14T21:32:30Z",
     "archived": false
   },
   {
@@ -9611,7 +9788,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-15T22:06:11Z",
-    "last_seen": "2026-08-11T21:57:33Z",
+    "last_seen": "2026-08-14T21:32:23Z",
     "archived": false
   },
   {
@@ -9813,7 +9990,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-05-31T22:07:13Z",
-    "last_seen": "2026-08-11T21:57:33Z",
+    "last_seen": "2026-08-14T21:32:23Z",
     "archived": false
   },
   {
@@ -10051,7 +10228,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-06-28T22:08:14Z",
-    "last_seen": "2026-08-11T21:57:33Z",
+    "last_seen": "2026-08-14T21:32:23Z",
     "archived": false
   },
   {
@@ -10111,7 +10288,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-07-21T22:10:25Z",
-    "last_seen": "2026-08-11T21:57:33Z",
+    "last_seen": "2026-08-14T21:32:23Z",
     "archived": false
   },
   {
@@ -10171,7 +10348,7 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-07-31T22:13:23Z",
-    "last_seen": "2026-08-11T21:58:04Z",
+    "last_seen": "2026-08-14T21:33:36Z",
     "archived": false
   },
   {
@@ -10200,7 +10377,33 @@
     "time_label": null,
     "is_kitchen_car": false,
     "first_seen": "2026-07-31T22:13:24Z",
-    "last_seen": "2026-08-11T21:58:05Z",
+    "last_seen": "2026-08-14T21:33:37Z",
+    "archived": false
+  },
+  {
+    "id": "【2026年9月11日（金）開催】ｗｈａｔｓｊａｚｚ　",
+    "source": "seiseki.org",
+    "url": "https://seiseki.org/%e3%80%902026%e5%b9%b49%e6%9c%8811%e6%97%a5%ef%bc%88%e9%87%91%ef%bc%89%e9%96%8b%e5%82%ac%e3%80%91%ef%bd%97%ef%bd%88%ef%bd%81%ef%bd%94%ef%bd%93%ef%bd%8a%ef%bd%81%ef%bd%9a%ef%bd%9a%e3%80%80/",
+    "title": "гҖҗ2026е№ҙ9жңҲ11ж—ҘпјҲйҮ‘пјүй–ӢеӮ¬гҖ‘пј·пҪҲпҪҒпҪ”вҖҷпҪ“пјӘпјЎпјәпјәгҖҖгӮёгғЈгӮәгҒёгҒ®жӢӣеҫ…гҖҖVolпјҺ77",
+    "date_label": "",
+    "date_start": null,
+    "date_end": null,
+    "status": null,
+    "tags": [],
+    "category_primary": "その他",
+    "genres": [],
+    "hashtags": [
+      "#聖蹟桜ヶ丘"
+    ],
+    "image_url": "https://seiseki.org/seisekiareamanagement/wp-content/uploads/2026/08/vol.77йқ’пҪһзҷҪ-1_page-0001.jpg",
+    "image_local": null,
+    "body": "пҪһйӯ…жғ‘гҒ®гӮ®гӮҝгғјгӮөгӮҰгғігғүпҪһ\nгӮёгғЈгӮәгӮ®гӮҝгғјгҒЁгҒЁгӮӮгҒ«гҖҖз©ҸгӮ„гҒӢгҒӘз§ӢгҒ®гҒІгҒЁжҷӮгӮ’гҒҠжҘҪгҒ—гҒҝгҒҸгҒ гҒ•гҒ„\n\nж—ҘжҷӮпјҡ9жңҲ11ж—Ҙ(йҮ‘)\nгғ©гғігғҒгӮҝгӮӨгғ гӮігғігӮөгғјгғҲпјҡ12жҷӮ30еҲҶй–Ӣе ҙгҖҖ13жҷӮй–Ӣжј”\nгғҶгӮЈгғјгӮҝгӮӨгғ гӮігғігӮөгғјгғҲпјҡ15жҷӮ30еҲҶй–Ӣе ҙгҖҖ16жҷӮй–Ӣжј”\nе ҙжүҖпјҡй–ўжҲёе…¬ж°‘йӨЁгғҙгӮЈгғјгӮҝгғӣгғјгғ«пјҲгғҙгӮЈгғјгӮҝгғ»гӮігғҹгғҘгғјгғҚпјҳпјҰпјү",
+    "venue": null,
+    "organizer": null,
+    "time_label": null,
+    "is_kitchen_car": false,
+    "first_seen": "2026-08-14T21:29:03Z",
+    "last_seen": "2026-08-14T21:29:03Z",
     "archived": false
   }
 ]
